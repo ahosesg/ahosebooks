@@ -1,0 +1,56 @@
+{
+  "method": "WCAG relative luminance",
+  "minimumRatio": 4.5,
+  "pairs": [
+    {
+      "foreground": "#F4F5F2",
+      "background": "#0F1713",
+      "ratio": 16.65
+    },
+    {
+      "foreground": "#C9D7CD",
+      "background": "#0F1713",
+      "ratio": 12.22
+    },
+    {
+      "foreground": "#F4F5F2",
+      "background": "#18221D",
+      "ratio": 14.93
+    },
+    {
+      "foreground": "#C9D7CD",
+      "background": "#18221D",
+      "ratio": 10.96
+    },
+    {
+      "foreground": "#F4F5F2",
+      "background": "#2A3B33",
+      "ratio": 10.83
+    },
+    {
+      "foreground": "#C9D7CD",
+      "background": "#2A3B33",
+      "ratio": 7.95
+    },
+    {
+      "foreground": "#F4F5F2",
+      "background": "#1F6B4F",
+      "ratio": 5.86
+    },
+    {
+      "foreground": "#3FAE68",
+      "background": "#0F1713",
+      "ratio": 6.48
+    },
+    {
+      "foreground": "#3FAE68",
+      "background": "#18221D",
+      "ratio": 5.81
+    },
+    {
+      "foreground": "#1A1F1D",
+      "background": "#E7EFEA",
+      "ratio": 14.26
+    }
+  ]
+}

@@ -15,6 +15,7 @@ Edição web e PDF A4 de **Minha empresa está no CBAM?**, da AHOS ESG. São 15 
 | Ilustração vetorial da capa | `src/components/CoverGraphic.astro` |
 | PDF aprovado da edição | `public/downloads/minha-empresa-esta-no-cbam.pdf` |
 | Processo editorial | `docs/PROCESSO_EDITORIAL.md` |
+| Validação da revisão atual | [docs/VALIDACAO_1.0.1.md](docs/VALIDACAO_1.0.1.md) |
 
 ## Desenvolvimento
 

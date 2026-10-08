@@ -1,0 +1,198 @@
+{
+  "edition": {
+    "title": "Minha empresa está no CBAM?",
+    "subtitle": "Um diagnóstico prático de produtos, códigos CN e exposição na cadeia de exportação",
+    "version": "1.0.1",
+    "date": "2026-10-08",
+    "dateLabel": "8 de outubro de 2026",
+    "pageCount": 15,
+    "pdfFile": "minha-empresa-esta-no-cbam.pdf"
+  },
+  "browser": "156.0.8078.4",
+  "pages": [
+    {
+      "page": 1,
+      "theme": "light",
+      "background": "rgb(255, 255, 255)",
+      "foreground": "rgb(26, 31, 29)",
+      "width": 793.6875,
+      "height": 1122.515625,
+      "overflowY": 0,
+      "overflowX": 0,
+      "collision": 0
+    },
+    {
+      "page": 2,
+      "theme": "light",
+      "background": "rgb(255, 255, 255)",
+      "foreground": "rgb(26, 31, 29)",
+      "width": 793.6875,
+      "height": 1122.515625,
+      "overflowY": 0,
+      "overflowX": 0,
+      "collision": 0
+    },
+    {
+      "page": 3,
+      "theme": "strong",
+      "background": "rgb(15, 23, 19)",
+      "foreground": "rgb(244, 245, 242)",
+      "width": 793.6875,
+      "height": 1122.515625,
+      "overflowY": 0,
+      "overflowX": 0,
+      "collision": 0
+    },
+    {
+      "page": 4,
+      "theme": "light",
+      "background": "rgb(255, 255, 255)",
+      "foreground": "rgb(26, 31, 29)",
+      "width": 793.6875,
+      "height": 1122.515625,
+      "overflowY": 0,
+      "overflowX": 0,
+      "collision": 0
+    },
+    {
+      "page": 5,
+      "theme": "light",
+      "background": "rgb(255, 255, 255)",
+      "foreground": "rgb(26, 31, 29)",
+      "width": 793.6875,
+      "height": 1122.515625,
+      "overflowY": 0,
+      "overflowX": 0,
+      "collision": 0
+    },
+    {
+      "page": 6,
+      "theme": "strong",
+      "background": "rgb(15, 23, 19)",
+      "foreground": "rgb(244, 245, 242)",
+      "width": 793.6875,
+      "height": 1122.515625,
+      "overflowY": 0,
+      "overflowX": 0,
+      "collision": 0
+    },
+    {
+      "page": 7,
+      "theme": "light",
+      "background": "rgb(255, 255, 255)",
+      "foreground": "rgb(26, 31, 29)",
+      "width": 793.6875,
+      "height": 1122.515625,
+      "overflowY": 0,
+      "overflowX": 0,
+      "collision": 0
+    },
+    {
+      "page": 8,
+      "theme": "strong",
+      "background": "rgb(15, 23, 19)",
+      "foreground": "rgb(244, 245, 242)",
+      "width": 793.6875,
+      "height": 1122.515625,
+      "overflowY": 0,
+      "overflowX": 0,
+      "collision": 0
+    },
+    {
+      "page": 9,
+      "theme": "light",
+      "background": "rgb(255, 255, 255)",
+      "foreground": "rgb(26, 31, 29)",
+      "width": 793.6875,
+      "height": 1122.515625,
+      "overflowY": 0,
+      "overflowX": 0,
+      "collision": 0
+    },
+    {
+      "page": 10,
+      "theme": "strong",
+      "background": "rgb(15, 23, 19)",
+      "foreground": "rgb(244, 245, 242)",
+      "width": 793.6875,
+      "height": 1122.515625,
+      "overflowY": 0,
+      "overflowX": 0,
+      "collision": 0
+    },
+    {
+      "page": 11,
+      "theme": "light",
+      "background": "rgb(255, 255, 255)",
+      "foreground": "rgb(26, 31, 29)",
+      "width": 793.6875,
+      "height": 1122.515625,
+      "overflowY": 0,
+      "overflowX": 0,
+      "collision": 0
+    },
+    {
+      "page": 12,
+      "theme": "light",
+      "background": "rgb(255, 255, 255)",
+      "foreground": "rgb(26, 31, 29)",
+      "width": 793.6875,
+      "height": 1122.515625,
+      "overflowY": 0,
+      "overflowX": 0,
+      "collision": 0
+    },
+    {
+      "page": 13,
+      "theme": "light",
+      "background": "rgb(255, 255, 255)",
+      "foreground": "rgb(26, 31, 29)",
+      "width": 793.6875,
+      "height": 1122.515625,
+      "overflowY": 0,
+      "overflowX": 0,
+      "collision": 0
+    },
+    {
+      "page": 14,
+      "theme": "strong",
+      "background": "rgb(15, 23, 19)",
+      "foreground": "rgb(244, 245, 242)",
+      "width": 793.6875,
+      "height": 1122.515625,
+      "overflowY": 0,
+      "overflowX": 0,
+      "collision": 0
+    },
+    {
+      "page": 15,
+      "theme": "light",
+      "background": "rgb(255, 255, 255)",
+      "foreground": "rgb(26, 31, 29)",
+      "width": 793.6875,
+      "height": 1122.515625,
+      "overflowY": 0,
+      "overflowX": 0,
+      "collision": 0
+    }
+  ],
+  "fonts": [
+    {
+      "font": "400 16px Inter",
+      "loaded": true
+    },
+    {
+      "font": "600 16px Inter",
+      "loaded": true
+    },
+    {
+      "font": "600 16px Montserrat",
+      "loaded": true
+    },
+    {
+      "font": "700 16px Montserrat",
+      "loaded": true
+    }
+  ],
+  "failures": []
+}

@@ -1,0 +1,107 @@
+{
+  "edition": {
+    "title": "Minha empresa está no CBAM?",
+    "subtitle": "Um diagnóstico prático de produtos, códigos CN e exposição na cadeia de exportação",
+    "version": "1.0.1",
+    "date": "2026-10-08",
+    "dateLabel": "8 de outubro de 2026",
+    "pageCount": 15,
+    "pdfFile": "minha-empresa-esta-no-cbam.pdf"
+  },
+  "file": "public/downloads/minha-empresa-esta-no-cbam.pdf",
+  "bytes": 125164,
+  "sha256": "a860cf3f2d800196d058a18ad968698ed8721076c9d8f138dcee56cc9ca1c7b5",
+  "pages": [
+    {
+      "page": 1,
+      "width": 594.95996,
+      "height": 841.91998,
+      "annotations": 0
+    },
+    {
+      "page": 2,
+      "width": 594.95996,
+      "height": 841.91998,
+      "annotations": 3
+    },
+    {
+      "page": 3,
+      "width": 594.95996,
+      "height": 841.91998,
+      "annotations": 5
+    },
+    {
+      "page": 4,
+      "width": 594.95996,
+      "height": 841.91998,
+      "annotations": 2
+    },
+    {
+      "page": 5,
+      "width": 594.95996,
+      "height": 841.91998,
+      "annotations": 2
+    },
+    {
+      "page": 6,
+      "width": 594.95996,
+      "height": 841.91998,
+      "annotations": 3
+    },
+    {
+      "page": 7,
+      "width": 594.95996,
+      "height": 841.91998,
+      "annotations": 3
+    },
+    {
+      "page": 8,
+      "width": 594.95996,
+      "height": 841.91998,
+      "annotations": 3
+    },
+    {
+      "page": 9,
+      "width": 594.95996,
+      "height": 841.91998,
+      "annotations": 2
+    },
+    {
+      "page": 10,
+      "width": 594.95996,
+      "height": 841.91998,
+      "annotations": 4
+    },
+    {
+      "page": 11,
+      "width": 594.95996,
+      "height": 841.91998,
+      "annotations": 4
+    },
+    {
+      "page": 12,
+      "width": 594.95996,
+      "height": 841.91998,
+      "annotations": 4
+    },
+    {
+      "page": 13,
+      "width": 594.95996,
+      "height": 841.91998,
+      "annotations": 3
+    },
+    {
+      "page": 14,
+      "width": 594.95996,
+      "height": 841.91998,
+      "annotations": 3
+    },
+    {
+      "page": 15,
+      "width": 594.95996,
+      "height": 841.91998,
+      "annotations": 12
+    }
+  ],
+  "errors": []
+}
