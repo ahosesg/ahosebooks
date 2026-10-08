@@ -5,7 +5,7 @@ nav: Exceções e regimes aduaneiros
 kicker: Terceiro filtro · fundamento legal
 sources: [REG, G1]
 ---
-<p class="lead">Uma exceção precisa ter fundamento e evidências. O país de embarque, o porte da empresa ou uma alegação de baixa emissão não bastam.</p>
+<p class="lead">Exceções precisam de fundamento e evidências. O país de embarque, por exemplo, não comprova a origem da mercadoria.</p>
 
 <table class="exception-table">
   <thead><tr><th>Hipótese</th><th>O que verificar</th><th>Evidência essencial</th></tr></thead>
@@ -18,10 +18,10 @@ sources: [REG, G1]
   </tbody>
 </table>
 
-<div class="note"><span class="note-label">Origem não é país de trânsito</span><p>Uma mercadoria brasileira revendida ou embarcada pela Suíça não adquire automaticamente origem suíça. Confirme a origem aduaneira, não apenas o endereço do trader.</p></div>
+<div class="note"><span class="note-label">Origem não é país de trânsito</span><p>Mercadoria brasileira revendida ou embarcada pela Suíça não adquire automaticamente origem suíça. Confirme a origem aduaneira.</p></div>
 
 ### Atenção ao aperfeiçoamento ativo na UE
 
-Se um bem abrangido entra sob esse regime e o produto processado é depois introduzido em livre prática, pode haver CBAM sobre os bens originalmente abrangidos, mesmo que a CN final não esteja no Anexo I. Reexportação requer análise própria das condições do regime.
+Se o produto processado é introduzido em livre prática, pode haver CBAM sobre os bens originalmente abrangidos, mesmo com CN final fora do Anexo I. Reexportação requer análise das condições do regime.
 
-<p class="small"><strong>Não existem isenções gerais por ser PME, ter baixas emissões ou vender por trader.</strong> Confira também qualquer alegação baseada apenas em acordo comercial.</p>
+<p class="small"><strong>Ser PME, ter baixas emissões, vender por trader ou contar com acordo comercial não cria uma isenção geral.</strong></p>
