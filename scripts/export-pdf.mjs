@@ -37,13 +37,14 @@ try {
   const report = await page.evaluate(() => {
     const pages = [...document.querySelectorAll('.sheet')].map(sheet => {
       const rect = sheet.getBoundingClientRect();
+      const colors = getComputedStyle(sheet);
       const content = sheet.querySelector('.page-content');
       const footer = sheet.querySelector('.page-footer');
       const overflowY = Math.max(0, sheet.scrollHeight - sheet.clientHeight, content ? content.scrollHeight - content.clientHeight : 0);
       const overflowX = Math.max(0, sheet.scrollWidth - sheet.clientWidth);
       const last = content?.lastElementChild?.getBoundingClientRect();
       const collision = last && footer ? Math.max(0, last.bottom - footer.getBoundingClientRect().top) : 0;
-      return { page: Number(sheet.dataset.page), width: rect.width, height: rect.height, overflowY, overflowX, collision };
+      return { page: Number(sheet.dataset.page), theme: sheet.dataset.theme, background: colors.backgroundColor, foreground: colors.color, width: rect.width, height: rect.height, overflowY, overflowX, collision };
     });
     return { pages, fonts: ['400 16px Inter', '600 16px Inter', '600 16px Montserrat', '700 16px Montserrat'].map(font => ({ font, loaded: document.fonts.check(font) })) };
   });

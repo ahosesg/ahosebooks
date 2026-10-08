@@ -26,6 +26,19 @@ A A4 tem 210 × 297 mm. A geometria de impressão usa margens internas de 18 mm,
 
 Na leitura web o conteúdo se adapta à largura; a prévia A4 mantém a página fixa e permite rolagem horizontal em telas pequenas. O PDF usa a folha fixa. A ficha é destinada a preenchimento manual ou adaptação editorial; o PDF não contém campos digitais de formulário.
 
+## Paletas por página
+
+Edite `src/data/design.json` para distribuir as páginas entre Light e Strong. A cor não altera o conteúdo nem a geometria A4. O componente `BookPage.astro` aplica o tema e o CSS utiliza variáveis para fundo, texto, superfícies, tabelas, diagramas e rodapés.
+
+Na revisão 1.0.1, as páginas 3, 6, 8, 10 e 14 usam Strong. A capa, a árvore de decisão, a ficha de diagnóstico e as referências mantêm Light. O preenchimento manual da ficha continua sobre fundo branco.
+
+| Paleta | Fundo / superfícies | Texto | Destaque |
+| --- | --- | --- | --- |
+| Light | `#FFFFFF`, `#E7EFEA`, `#DDEBDF` | `#1A1F1D`, `#3A4A41`, `#174C39` | `#1F6B4F` |
+| Strong | `#0F1713`, `#18221D`, `#2A3B33` | `#F4F5F2`, `#C9D7CD` | `#3FAE68` |
+
+Deep Forest Green `#1F6B4F` permanece a âncora institucional nos dois modos. Verifique o contraste de todos os textos após mudar cores; não inverta apenas o fundo da página. Referência visual: documento-base AHOS ESG v3.0, de 27/09/2026, e ajuste solicitado em 08/10/2026.
+
 ## Evidências de geração
 
 O workflow produz `content-report.json`, `print-report.json` e `pdf-report.json`. Eles verificam estrutura, dimensões, carregamento de fontes, colisões e links. Essa verificação não substitui a revisão visual ou regulatória. A existência de tags no PDF não equivale a uma auditoria completa de acessibilidade.

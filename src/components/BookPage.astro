@@ -5,13 +5,15 @@ import DecisionTree from './DecisionTree.astro';
 import ReferenceList from './ReferenceList.astro';
 import references from '../data/references.json';
 import edition from '../data/edition.json';
+import design from '../data/design.json';
 interface Props { entry: CollectionEntry<'cbam'> }
 const { entry } = Astro.props;
 const { Content } = await render(entry);
 const { page, title, kicker, layout, sources } = entry.data;
 const pageId = `pagina-${page}`;
+const theme = design.strongPages.includes(page) ? 'strong' : design.defaultTheme;
 ---
-<article class:list={['sheet', `sheet-${layout}`]} id={pageId} data-page={page} aria-labelledby={`${pageId}-title`}>
+<article class:list={['sheet', `sheet-${layout}`]} id={pageId} data-page={page} data-theme={theme} aria-labelledby={`${pageId}-title`}>
   {layout === 'cover' ? <>
     <header class="cover-top"><span class="brand">AHOS <span>ESG</span></span><span class="collection-label">CADERNOS AHOS<br/>COMÉRCIO & CLIMA</span></header>
     <div class="cover-copy">
