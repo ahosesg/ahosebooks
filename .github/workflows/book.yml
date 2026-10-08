@@ -1,0 +1,42 @@
+name: Book · build and PDF
+
+on:
+  push:
+    branches: [main]
+    paths-ignore: ['public/downloads/**', 'docs/**', 'README.md']
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci
+      - name: Build and check content
+        run: npm run build
+      - name: Install Chromium for PDF export
+        run: npx playwright install --with-deps chromium
+      - name: Export and verify PDF
+        run: |
+          npm run pdf
+          npm run verify:pdf
+      - name: Include the generated PDF in the website
+        run: npm run build
+      - name: Preserve ebook, site and validation reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: ahos-cbam-ebook
+          path: |
+            public/downloads/*.pdf
+            dist/
+            output/*.json
+          retention-days: 90

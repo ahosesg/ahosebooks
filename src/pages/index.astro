@@ -1,0 +1,67 @@
+---
+import { getCollection } from 'astro:content';
+import '@fontsource/inter/latin-400.css';
+import '@fontsource/inter/latin-600.css';
+import '@fontsource/montserrat/latin-600.css';
+import '@fontsource/montserrat/latin-700.css';
+import '../styles/book.css';
+import BookPage from '../components/BookPage.astro';
+import edition from '../data/edition.json';
+const pages = (await getCollection('cbam')).sort((a, b) => a.data.page - b.data.page);
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>{edition.title} | AHOS ESG</title>
+    <meta name="description" content="Um diagnóstico educativo do CBAM para empresas brasileiras: produtos, códigos CN, exportação, precursores, exceções e limite de minimis."/>
+    <meta name="theme-color" content="#174C39"/>
+    <link rel="icon" type="image/svg+xml" href={`${base}/favicon.svg`}/>
+  </head>
+  <body data-mode="reader">
+    <a class="skip-link" href="#livro">Ir para o e-book</a>
+    <header class="site-header">
+      <a class="site-brand" href={`${base}/`} aria-label="AHOS ESG, início">AHOS <span>ESG</span></a>
+      <span class="header-title">MINHA EMPRESA ESTÁ NO CBAM?</span>
+      <nav class="view-controls" aria-label="Modo de leitura">
+        <button type="button" data-view="reader" aria-pressed="true">Leitura</button>
+        <button type="button" data-view="print" aria-pressed="false">Prévia A4</button>
+      </nav>
+      <a class="download-link" href={`${base}/downloads/${edition.pdfFile}`} download>Baixar PDF <span aria-hidden="true">↓</span></a>
+    </header>
+    <div class="reading-layout">
+      <aside class="contents">
+        <p class="eyebrow">NESTA EDIÇÃO</p>
+        <nav aria-label="Sumário"><ol>{pages.map(p => <li><a href={`#pagina-${p.data.page}`}><span>{String(p.data.page).padStart(2, '0')}</span>{p.data.nav}</a></li>)}</ol></nav>
+        <div class="edition-stamp"><span>Edição {edition.version}</span><strong>08 OUT 2026</strong><p>Diagnóstico por produto,<br/>cliente e operação.</p></div>
+      </aside>
+      <main id="livro" class="book"><div class="a4-notice" role="status">Prévia de paginação A4. O PDF mantém o tamanho de página para impressão.</div>{pages.map(entry => <BookPage entry={entry}/>)}</main>
+    </div>
+    <footer class="site-footer"><span>AHOS ESG · Cadernos de comércio & clima</span><a href="#pagina-1">Voltar ao início ↑</a></footer>
+    <script>
+      const controls = document.querySelectorAll<HTMLButtonElement>('[data-view]');
+      const setView = (mode: string) => {
+        const view = mode === 'print' ? 'print' : 'reader';
+        document.body.dataset.mode = view;
+        controls.forEach(button => button.setAttribute('aria-pressed', String(button.dataset.view === view)));
+        const url = new URL(location.href);
+        if (view === 'print') url.searchParams.set('modo', 'a4'); else url.searchParams.delete('modo');
+        history.replaceState(null, '', url);
+      };
+      setView(new URL(location.href).searchParams.get('modo') === 'a4' ? 'print' : 'reader');
+      controls.forEach(button => button.addEventListener('click', () => setView(button.dataset.view || 'reader')));
+      const links = [...document.querySelectorAll<HTMLAnchorElement>('.contents a')];
+      const observer = new IntersectionObserver(entries => {
+        const visible = entries.filter(entry => entry.isIntersecting).sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top)[0];
+        if (!visible) return;
+        links.forEach(link => {
+          if (link.hash === `#${visible.target.id}`) link.setAttribute('aria-current', 'location');
+          else link.removeAttribute('aria-current');
+        });
+      }, { rootMargin: '-15% 0px -65% 0px' });
+      document.querySelectorAll('.sheet').forEach(page => observer.observe(page));
+    </script>
+  </body>
+</html>

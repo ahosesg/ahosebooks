@@ -1,0 +1,58 @@
+[
+  {
+    "id": "REG",
+    "title": "Regulamento (UE) 2023/956",
+    "detail": "Versão consolidada de 20/10/2025, após ALT. Artigos 2 e 2a; Anexos I, III e VII.",
+    "url": "https://eur-lex.europa.eu/eli/reg/2023/956/2025-10-20/eng",
+    "kind": "Norma"
+  },
+  {
+    "id": "ALT",
+    "title": "Regulamento (UE) 2025/2083",
+    "detail": "Simplificação e reforço do CBAM, publicado em outubro de 2025.",
+    "url": "https://eur-lex.europa.eu/eli/reg/2025/2083/oj/eng",
+    "kind": "Norma"
+  },
+  {
+    "id": "G1",
+    "title": "Guidance No. 1 · Introduction to CBAM concepts",
+    "detail": "Comissão Europeia, 14/08/2026. Conceitos, regime definitivo e exceções.",
+    "url": "https://taxation-customs.ec.europa.eu/document/download/031abf60-21a9-4822-b258-ac8b111d8358_en",
+    "kind": "Guia"
+  },
+  {
+    "id": "G2",
+    "title": "Guidance No. 2 · Quick guide for non-EU operators",
+    "detail": "Comissão Europeia, 14/08/2026. Operadores fora da UE, dados e precursores.",
+    "url": "https://taxation-customs.ec.europa.eu/document/download/91e1056c-4524-4705-aaa7-e25c1439a87a_en",
+    "kind": "Guia"
+  },
+  {
+    "id": "AT1",
+    "title": "CBAM De Minimis Threshold Assessment",
+    "detail": "Comissão Europeia, 30/09/2026. Avaliação do limite de 50 toneladas.",
+    "url": "https://taxation-customs.ec.europa.eu/news/cbam-de-minimis-threshold-assessment-2026-09-30_en",
+    "kind": "Atualização"
+  },
+  {
+    "id": "AT2",
+    "title": "CBAM legislation and guidance",
+    "detail": "Portal oficial: correção 2026/1740 dos valores padrão e proposta COM(2025) 989.",
+    "url": "https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism/cbam-legislation-and-guidance_en",
+    "kind": "Consulta"
+  },
+  {
+    "id": "DEF",
+    "title": "CBAM definitive regime",
+    "detail": "Portal oficial do regime definitivo, aplicável desde 01/01/2026.",
+    "url": "https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism/cbam-definitive-regime_en",
+    "kind": "Consulta"
+  },
+  {
+    "id": "CN",
+    "title": "TARIC · Consulta da pauta aduaneira europeia",
+    "detail": "Consulta de códigos e medidas. Use a classificação válida na data da operação.",
+    "url": "https://ec.europa.eu/taxation_customs/dds2/taric/taric_consultation.jsp?Lang=en",
+    "kind": "Consulta"
+  }
+]

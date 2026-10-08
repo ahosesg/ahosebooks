@@ -1,0 +1,24 @@
+{
+  "name": "ahos-ebooks",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22.12.0" },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "node scripts/check-content.mjs && astro build",
+    "preview": "astro preview",
+    "pdf": "node scripts/export-pdf.mjs",
+    "verify:pdf": "node scripts/check-pdf.mjs",
+    "check": "node scripts/check-content.mjs"
+  },
+  "dependencies": {
+    "@fontsource/inter": "5.3.0",
+    "@fontsource/montserrat": "5.3.0",
+    "astro": "7.3.7"
+  },
+  "devDependencies": {
+    "pdf-lib": "1.17.1",
+    "playwright": "1.64.0"
+  }
+}

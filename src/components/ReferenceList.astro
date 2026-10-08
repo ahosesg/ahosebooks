@@ -1,0 +1,6 @@
+---
+import references from '../data/references.json';
+---
+<ol class="reference-list">
+  {references.map(ref => <li><span class="ref-code">{ref.id}</span><div><a href={ref.url}>{ref.title}</a><p>{ref.detail}</p></div><span class="ref-kind">{ref.kind}</span></li>)}
+</ol>

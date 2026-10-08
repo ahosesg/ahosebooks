@@ -1,0 +1,33 @@
+<div class="decision-tree" aria-label="Árvore de decisão de enquadramento preliminar">
+  <p class="tree-instruction"><strong>Comece no passo 1.</strong> Siga “sim” ou “não”. Se uma informação necessária não foi confirmada, registre <strong>R5</strong> e a evidência pendente.</p>
+  <ol class="tree-steps">
+    <li>
+      <div class="tree-question"><span class="step-num">1</span><strong>O código CN e a descrição foram validados?</strong></div>
+      <div class="tree-branches"><span><b>Sim</b> → 2</span><span><b>Não / não sei</b> → <em class="result-tag">R5</em> Confirmar CN.</span></div>
+    </li>
+    <li>
+      <div class="tree-question"><span class="step-num">2</span><strong>A mercadoria está no Anexo I?</strong></div>
+      <div class="tree-branches"><span><b>Sim</b> → 3</span><span><b>Não</b> → <em class="result-tag">R4</em> Conferir regime especial.*</span></div>
+    </li>
+    <li>
+      <div class="tree-question"><span class="step-num">3</span><strong>Essa mercadoria será importada na UE?</strong></div>
+      <div class="tree-branches"><span><b>Sim, inclusive via trader</b> → 4</span><span><b>Não</b> → 3A · <b>Não sei</b> → <em class="result-tag">R5</em></span></div>
+      <div class="tree-detour"><strong>3A · É precursor de um produto abrangido que será importado na UE?</strong><br/><b>Sim</b> → <em class="result-tag">R2</em> · <b>Não</b> → <em class="result-tag">R4</em> · <b>Não sei</b> → <em class="result-tag">R5</em></div>
+    </li>
+    <li>
+      <div class="tree-question"><span class="step-num">4</span><strong>Há outra exceção legal comprovada?</strong></div>
+      <div class="tree-branches"><span><b>Sim</b> → <em class="result-tag">R3</em> Registrar fundamento.</span><span><b>Não</b> → 5 · <b>Não sei</b> → <em class="result-tag">R5</em></span></div>
+    </li>
+    <li>
+      <div class="tree-question"><span class="step-num">5</span><strong>É hidrogênio ou eletricidade?</strong></div>
+      <div class="tree-branches"><span><b>Sim</b> → <em class="result-tag">R1</em> Sem minimis de 50 t.</span><span><b>Não</b> → 6</span></div>
+    </li>
+    <li>
+      <div class="tree-question"><span class="step-num">6</span><strong>Qual é o agregado anual do importador?</strong></div>
+      <div class="tree-branches"><span><b>Até 50 t, inclusive</b> → <em class="result-tag">R3</em> Declarar e monitorar.</span><span><b>Acima de 50 t</b> → <em class="result-tag">R1</em> Todo o ano.</span></div>
+      <p class="tree-unknown"><b>Não confirmado</b> → <em class="result-tag">R5</em> Solicitar o total do importador.</p>
+    </li>
+  </ol>
+  <div class="result-key"><span><b>R1</b> Sujeita às obrigações</span><span><b>R2</b> Cadeia de precursor</span><span><b>R3</b> Isenção confirmada</span><span><b>R4</b> Sem escopo direto identificado</span><span><b>R5</b> Inconclusivo</span></div>
+  <p class="small tree-note">* Se houve aperfeiçoamento ativo na UE, analise os bens originalmente abrangidos antes de concluir R4. Para R3 por minimis, confirme as condições e monitore a evolução do ano (p. 10).</p>
+</div>
