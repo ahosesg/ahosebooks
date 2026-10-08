@@ -1,0 +1,153 @@
+{
+  "edition": {
+    "title": "Minha empresa está no CBAM?",
+    "subtitle": "Um diagnóstico prático de produtos, códigos CN e exposição na cadeia de exportação",
+    "version": "1.0.0",
+    "date": "2026-10-08",
+    "dateLabel": "8 de outubro de 2026",
+    "pageCount": 15,
+    "pdfFile": "minha-empresa-esta-no-cbam.pdf"
+  },
+  "browser": "156.0.8078.4",
+  "pages": [
+    {
+      "page": 1,
+      "width": 793.6875,
+      "height": 1122.515625,
+      "overflowY": 0,
+      "overflowX": 0,
+      "collision": 0
+    },
+    {
+      "page": 2,
+      "width": 793.6875,
+      "height": 1122.515625,
+      "overflowY": 0,
+      "overflowX": 0,
+      "collision": 0
+    },
+    {
+      "page": 3,
+      "width": 793.6875,
+      "height": 1122.515625,
+      "overflowY": 0,
+      "overflowX": 0,
+      "collision": 0
+    },
+    {
+      "page": 4,
+      "width": 793.6875,
+      "height": 1122.515625,
+      "overflowY": 0,
+      "overflowX": 0,
+      "collision": 0
+    },
+    {
+      "page": 5,
+      "width": 793.6875,
+      "height": 1122.515625,
+      "overflowY": 0,
+      "overflowX": 0,
+      "collision": 0
+    },
+    {
+      "page": 6,
+      "width": 793.6875,
+      "height": 1122.515625,
+      "overflowY": 0,
+      "overflowX": 0,
+      "collision": 0
+    },
+    {
+      "page": 7,
+      "width": 793.6875,
+      "height": 1122.515625,
+      "overflowY": 0,
+      "overflowX": 0,
+      "collision": 0
+    },
+    {
+      "page": 8,
+      "width": 793.6875,
+      "height": 1122.515625,
+      "overflowY": 0,
+      "overflowX": 0,
+      "collision": 0
+    },
+    {
+      "page": 9,
+      "width": 793.6875,
+      "height": 1122.515625,
+      "overflowY": 0,
+      "overflowX": 0,
+      "collision": 0
+    },
+    {
+      "page": 10,
+      "width": 793.6875,
+      "height": 1122.515625,
+      "overflowY": 0,
+      "overflowX": 0,
+      "collision": 0
+    },
+    {
+      "page": 11,
+      "width": 793.6875,
+      "height": 1122.515625,
+      "overflowY": 0,
+      "overflowX": 0,
+      "collision": 0
+    },
+    {
+      "page": 12,
+      "width": 793.6875,
+      "height": 1122.515625,
+      "overflowY": 0,
+      "overflowX": 0,
+      "collision": 0
+    },
+    {
+      "page": 13,
+      "width": 793.6875,
+      "height": 1122.515625,
+      "overflowY": 0,
+      "overflowX": 0,
+      "collision": 0
+    },
+    {
+      "page": 14,
+      "width": 793.6875,
+      "height": 1122.515625,
+      "overflowY": 0,
+      "overflowX": 0,
+      "collision": 0
+    },
+    {
+      "page": 15,
+      "width": 793.6875,
+      "height": 1122.515625,
+      "overflowY": 0,
+      "overflowX": 0,
+      "collision": 0
+    }
+  ],
+  "fonts": [
+    {
+      "font": "400 16px Inter",
+      "loaded": true
+    },
+    {
+      "font": "600 16px Inter",
+      "loaded": true
+    },
+    {
+      "font": "600 16px Montserrat",
+      "loaded": true
+    },
+    {
+      "font": "700 16px Montserrat",
+      "loaded": true
+    }
+  ],
+  "failures": []
+}
