@@ -1,0 +1,79 @@
+{
+  "edition": "1.0",
+  "checkedOn": "2026-10-11",
+  "sourceCommit": "db9833ebb1a3f6420c5cc5791896f9123ff64928",
+  "compiledAssetsCommit": "b5ae4f80d2211f7e08aebf5ee707427ea1785dd4",
+  "workflowRun": 38143949707,
+  "artifactId": 11703189773,
+  "artifactSHA256": "ae2327797e4930b08a9e6dbf3798a3013c0f1796e361ef478517ecc8f26777d2",
+  "pdfSHA256": "ae04429aaf44347bd7b7f17ce8c0ddae63fae4b6245c4e04c6ac0b7249b6d6b8",
+  "checks": {
+    "edition_1_0": true,
+    "fifteen_A4_pages": true,
+    "update_date_only_last_page": true,
+    "only_cover_photograph": true,
+    "photo_credit_cover_and_end": true,
+    "worksheet_removed": true,
+    "no_old_source_footer": true,
+    "no_cadernos_ahos": true,
+    "six_figure_blocks": true,
+    "two_charts_in_minimis": true,
+    "notes_links_intact": true,
+    "strong_pages": true,
+    "no_collisions": true,
+    "within_export_tolerance": true,
+    "pdf_alias_identical": true,
+    "local_and_github_artifacts_match": true
+  },
+  "visualPagesInspected": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "figurePages": [
+    4,
+    5,
+    7,
+    8,
+    10,
+    13
+  ],
+  "conceptualFigures": 5,
+  "hypotheticalCharts": 2,
+  "footnotes": 14,
+  "linkedAnnotations": 70,
+  "internalLinks": 28,
+  "externalLinks": 42,
+  "geometryNote": "Página 13: variação de 2 px no medidor; dentro da tolerância de exportação. Inspeção do PDF sem cortes ou sobreposição.",
+  "githubBlobChecks": [
+    {
+      "path": "public/downloads/minha-empresa-esta-no-cbam-edicao-1.0.pdf",
+      "sha": "52a60c867edf452d84657eab933948156ff0275e"
+    },
+    {
+      "path": "public/downloads/minha-empresa-esta-no-cbam.pdf",
+      "sha": "52a60c867edf452d84657eab933948156ff0275e"
+    },
+    {
+      "path": "public/figures/minimis.svg",
+      "sha": "bc981cf901f173f45dacf9c3ef8ef63789b08e9c"
+    },
+    {
+      "path": "public/images/porto-k-17311127.jpg",
+      "sha": "ec082c5e4343d30eee8c0adf6f1ee13dff1d9c33"
+    }
+  ],
+  "publicationExecuted": false
+}

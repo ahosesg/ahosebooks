@@ -1,0 +1,301 @@
+{
+  "edition": {
+    "title": "Minha empresa está no CBAM?",
+    "subtitle": "Um diagnóstico prático de produtos, códigos CN e exposição na cadeia de exportação",
+    "version": "1.0",
+    "date": "2026-10-11",
+    "dateLabel": "11 de outubro de 2026",
+    "pageCount": 15,
+    "layoutUpdated": "2026-10-11",
+    "pdfFile": "minha-empresa-esta-no-cbam-edicao-1.0.pdf"
+  },
+  "browser": "156.0.8078.4",
+  "pages": [
+    {
+      "page": 1,
+      "theme": "strong",
+      "background": "rgb(15, 23, 19)",
+      "foreground": "rgb(244, 245, 242)",
+      "width": 793.6875,
+      "height": 1122.515625,
+      "overflowY": 0,
+      "overflowX": 0,
+      "collision": 0,
+      "remainingSpace": 0,
+      "notes": 0,
+      "images": 1
+    },
+    {
+      "page": 2,
+      "theme": "light",
+      "background": "rgb(255, 255, 255)",
+      "foreground": "rgb(26, 31, 29)",
+      "width": 793.6875,
+      "height": 1122.515625,
+      "overflowY": 0,
+      "overflowX": 0,
+      "collision": 0,
+      "remainingSpace": 86.203125,
+      "notes": 1,
+      "images": 0
+    },
+    {
+      "page": 3,
+      "theme": "strong",
+      "background": "rgb(15, 23, 19)",
+      "foreground": "rgb(244, 245, 242)",
+      "width": 793.6875,
+      "height": 1122.515625,
+      "overflowY": 0,
+      "overflowX": 0,
+      "collision": 0,
+      "remainingSpace": 44.546875,
+      "notes": 2,
+      "images": 0
+    },
+    {
+      "page": 4,
+      "theme": "light",
+      "background": "rgb(255, 255, 255)",
+      "foreground": "rgb(26, 31, 29)",
+      "width": 793.6875,
+      "height": 1122.515625,
+      "overflowY": 0,
+      "overflowX": 0,
+      "collision": 0,
+      "remainingSpace": 1.640625,
+      "notes": 1,
+      "images": 0
+    },
+    {
+      "page": 5,
+      "theme": "light",
+      "background": "rgb(255, 255, 255)",
+      "foreground": "rgb(26, 31, 29)",
+      "width": 793.6875,
+      "height": 1122.515625,
+      "overflowY": 0,
+      "overflowX": 0,
+      "collision": 0,
+      "remainingSpace": 32.90625,
+      "notes": 1,
+      "images": 0
+    },
+    {
+      "page": 6,
+      "theme": "strong",
+      "background": "rgb(15, 23, 19)",
+      "foreground": "rgb(244, 245, 242)",
+      "width": 793.6875,
+      "height": 1122.515625,
+      "overflowY": 0,
+      "overflowX": 0,
+      "collision": 0,
+      "remainingSpace": 49.78125,
+      "notes": 1,
+      "images": 0
+    },
+    {
+      "page": 7,
+      "theme": "light",
+      "background": "rgb(255, 255, 255)",
+      "foreground": "rgb(26, 31, 29)",
+      "width": 793.6875,
+      "height": 1122.515625,
+      "overflowY": 0,
+      "overflowX": 0,
+      "collision": 0,
+      "remainingSpace": 13.421875,
+      "notes": 1,
+      "images": 0
+    },
+    {
+      "page": 8,
+      "theme": "strong",
+      "background": "rgb(15, 23, 19)",
+      "foreground": "rgb(244, 245, 242)",
+      "width": 793.6875,
+      "height": 1122.515625,
+      "overflowY": 0,
+      "overflowX": 0,
+      "collision": 0,
+      "remainingSpace": 16.90625,
+      "notes": 1,
+      "images": 0
+    },
+    {
+      "page": 9,
+      "theme": "light",
+      "background": "rgb(255, 255, 255)",
+      "foreground": "rgb(26, 31, 29)",
+      "width": 793.6875,
+      "height": 1122.515625,
+      "overflowY": 0,
+      "overflowX": 0,
+      "collision": 0,
+      "remainingSpace": 1.96875,
+      "notes": 1,
+      "images": 0
+    },
+    {
+      "page": 10,
+      "theme": "strong",
+      "background": "rgb(15, 23, 19)",
+      "foreground": "rgb(244, 245, 242)",
+      "width": 793.6875,
+      "height": 1122.515625,
+      "overflowY": 0,
+      "overflowX": 0,
+      "collision": 0,
+      "remainingSpace": 12.265625,
+      "notes": 2,
+      "images": 1
+    },
+    {
+      "page": 11,
+      "theme": "light",
+      "background": "rgb(255, 255, 255)",
+      "foreground": "rgb(26, 31, 29)",
+      "width": 793.6875,
+      "height": 1122.515625,
+      "overflowY": 0,
+      "overflowX": 0,
+      "collision": 0,
+      "remainingSpace": 35.71875,
+      "notes": 0,
+      "images": 0
+    },
+    {
+      "page": 12,
+      "theme": "light",
+      "background": "rgb(255, 255, 255)",
+      "foreground": "rgb(26, 31, 29)",
+      "width": 793.6875,
+      "height": 1122.515625,
+      "overflowY": 0,
+      "overflowX": 0,
+      "collision": 0,
+      "remainingSpace": 78.953125,
+      "notes": 0,
+      "images": 0
+    },
+    {
+      "page": 13,
+      "theme": "light",
+      "background": "rgb(255, 255, 255)",
+      "foreground": "rgb(26, 31, 29)",
+      "width": 793.6875,
+      "height": 1122.515625,
+      "overflowY": 2,
+      "overflowX": 0,
+      "collision": 0,
+      "remainingSpace": -2.15625,
+      "notes": 2,
+      "images": 0
+    },
+    {
+      "page": 14,
+      "theme": "strong",
+      "background": "rgb(15, 23, 19)",
+      "foreground": "rgb(244, 245, 242)",
+      "width": 793.6875,
+      "height": 1122.515625,
+      "overflowY": 0,
+      "overflowX": 0,
+      "collision": 0,
+      "remainingSpace": 93.890625,
+      "notes": 1,
+      "images": 0
+    },
+    {
+      "page": 15,
+      "theme": "light",
+      "background": "rgb(255, 255, 255)",
+      "foreground": "rgb(26, 31, 29)",
+      "width": 793.6875,
+      "height": 1122.515625,
+      "overflowY": 0,
+      "overflowX": 0,
+      "collision": 0,
+      "remainingSpace": 12.390625,
+      "notes": 0,
+      "images": 0
+    }
+  ],
+  "images": [
+    {
+      "src": "/ahosebooks/images/porto-k-17311127.jpg",
+      "width": 2200,
+      "height": 1647,
+      "loaded": true
+    },
+    {
+      "src": "/ahosebooks/figures/minimis.svg",
+      "width": 691,
+      "height": 336,
+      "loaded": true
+    }
+  ],
+  "figures": [
+    {
+      "kind": "sectors",
+      "page": 4,
+      "width": 657.625,
+      "height": 348.3125
+    },
+    {
+      "kind": "classification",
+      "page": 5,
+      "width": 657.625,
+      "height": 272.09375
+    },
+    {
+      "kind": "roles",
+      "page": 7,
+      "width": 657.625,
+      "height": 335
+    },
+    {
+      "kind": "precursors",
+      "page": 8,
+      "width": 657.625,
+      "height": 389.578125
+    },
+    {
+      "kind": "minimis",
+      "page": 10,
+      "width": 657.625,
+      "height": 359.59375
+    },
+    {
+      "kind": "documents",
+      "page": 13,
+      "width": 657.625,
+      "height": 377.078125
+    }
+  ],
+  "internalPhotos": 0,
+  "worksheetRemoved": true,
+  "brokenNoteLinks": [],
+  "forbiddenCoverText": false,
+  "obsoleteFooter": false,
+  "fonts": [
+    {
+      "font": "400 16px Inter",
+      "loaded": true
+    },
+    {
+      "font": "600 16px Inter",
+      "loaded": true
+    },
+    {
+      "font": "600 16px Montserrat",
+      "loaded": true
+    },
+    {
+      "font": "700 16px Montserrat",
+      "loaded": true
+    }
+  ],
+  "failures": []
+}

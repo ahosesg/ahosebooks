@@ -1,0 +1,212 @@
+{
+  "edition": {
+    "title": "Minha empresa está no CBAM?",
+    "subtitle": "Um diagnóstico prático de produtos, códigos CN e exposição na cadeia de exportação",
+    "version": "1.0",
+    "date": "2026-10-11",
+    "dateLabel": "11 de outubro de 2026",
+    "pageCount": 15,
+    "layoutUpdated": "2026-10-11",
+    "pdfFile": "minha-empresa-esta-no-cbam-edicao-1.0.pdf"
+  },
+  "contentHash": "5bd2eb3c1001c97910674ceb768386e42ed077cb4090d33139427d47b0b6f511",
+  "pages": [
+    {
+      "page": 1,
+      "file": "01-capa.md",
+      "title": "Minha empresa está no CBAM?",
+      "words": 14,
+      "sources": [],
+      "notes": 0,
+      "figure": null
+    },
+    {
+      "page": 2,
+      "file": "02-diagnostico.md",
+      "title": "O que este diagnóstico vai responder",
+      "words": 177,
+      "sources": [
+        "REG",
+        "G1",
+        "G2"
+      ],
+      "notes": 1,
+      "figure": null
+    },
+    {
+      "page": 3,
+      "file": "03-atualizacoes.md",
+      "title": "O que mudou para as empresas em 2026",
+      "words": 195,
+      "sources": [
+        "ALT",
+        "G1",
+        "AT1",
+        "AT2",
+        "DEF"
+      ],
+      "notes": 2,
+      "figure": null
+    },
+    {
+      "page": 4,
+      "file": "04-produtos.md",
+      "title": "Quais produtos estão abrangidos?",
+      "words": 146,
+      "sources": [
+        "REG",
+        "G2"
+      ],
+      "notes": 1,
+      "figure": "sectors"
+    },
+    {
+      "page": 5,
+      "file": "05-codigo-cn.md",
+      "title": "Como conferir o código CN do meu produto",
+      "words": 101,
+      "sources": [
+        "REG",
+        "CN",
+        "G2"
+      ],
+      "notes": 1,
+      "figure": "classification"
+    },
+    {
+      "page": 6,
+      "file": "06-rotas.md",
+      "title": "Como meu produto chega à União Europeia?",
+      "words": 158,
+      "sources": [
+        "REG",
+        "G1",
+        "G2"
+      ],
+      "notes": 1,
+      "figure": null
+    },
+    {
+      "page": 7,
+      "file": "07-responsaveis.md",
+      "title": "Quem responde por cada informação?",
+      "words": 117,
+      "sources": [
+        "REG",
+        "G1",
+        "G2"
+      ],
+      "notes": 1,
+      "figure": "roles"
+    },
+    {
+      "page": 8,
+      "file": "08-precursores.md",
+      "title": "Posso estar na cadeia sem exportar?",
+      "words": 81,
+      "sources": [
+        "REG",
+        "G1",
+        "G2",
+        "MET"
+      ],
+      "notes": 1,
+      "figure": "precursors"
+    },
+    {
+      "page": 9,
+      "file": "09-excecoes.md",
+      "title": "Quais exceções precisam ser verificadas?",
+      "words": 203,
+      "sources": [
+        "REG",
+        "G1"
+      ],
+      "notes": 1,
+      "figure": null
+    },
+    {
+      "page": 10,
+      "file": "10-minimis.md",
+      "title": "Como funciona a regra de minimis?",
+      "words": 78,
+      "sources": [
+        "REG",
+        "ALT",
+        "G1",
+        "AT1"
+      ],
+      "notes": 2,
+      "figure": "minimis"
+    },
+    {
+      "page": 11,
+      "file": "11-arvore.md",
+      "title": "\"Árvore de decisão: qual é a minha situação?\"",
+      "words": 0,
+      "sources": [
+        "REG",
+        "ALT",
+        "G1",
+        "G2"
+      ],
+      "notes": 0,
+      "figure": null
+    },
+    {
+      "page": 12,
+      "file": "12-casos.md",
+      "title": "Quatro casos para testar o raciocínio",
+      "words": 255,
+      "sources": [
+        "REG",
+        "G1",
+        "G2",
+        "AT2"
+      ],
+      "notes": 0,
+      "figure": null
+    },
+    {
+      "page": 13,
+      "file": "13-documentos.md",
+      "title": "Diagnóstico e documentos oficiais",
+      "words": 103,
+      "sources": [
+        "REG",
+        "G2",
+        "MET"
+      ],
+      "notes": 2,
+      "figure": "documents"
+    },
+    {
+      "page": 14,
+      "file": "14-acoes.md",
+      "title": "Do diagnóstico ao próximo passo",
+      "words": 196,
+      "sources": [
+        "REG",
+        "G1",
+        "G2"
+      ],
+      "notes": 1,
+      "figure": null
+    },
+    {
+      "page": 15,
+      "file": "15-referencias.md",
+      "title": "Fontes e atualização desta edição",
+      "words": 73,
+      "sources": [
+        "REG",
+        "ALT",
+        "G1",
+        "G2",
+        "MET"
+      ],
+      "notes": 0,
+      "figure": null
+    }
+  ]
+}
