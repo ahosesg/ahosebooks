@@ -24,4 +24,4 @@ notes:
 
 <div class="insight"><p><strong>Hidrogênio e eletricidade não recebem esta isenção.</strong> O limite não representa toneladas de CO₂, faturamento ou quantidade por embarque.</p></div>
 
-<p class="small">Uma hipótese de isenção depende das condições e do total anual efetivo. A referência de 50 t permanece nas fontes consultadas.<sup class="note-ref"><a id="chamada-10-2" href="#nota-10-2" role="doc-noteref" aria-label="Nota 2">2</a></sup></p>
+<p class="small">Acompanhe eventuais revisões do limite.<sup class="note-ref"><a id="chamada-10-2" href="#nota-10-2" role="doc-noteref" aria-label="Nota 2">2</a></sup></p>

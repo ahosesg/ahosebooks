@@ -44,10 +44,10 @@ try {
       const footer = sheet.querySelector('.page-footer');
       const overflowY = Math.max(0, sheet.scrollHeight - sheet.clientHeight, content ? content.scrollHeight - content.clientHeight : 0);
       const overflowX = Math.max(0, sheet.scrollWidth - sheet.clientWidth);
-      const last = content?.lastElementChild?.getBoundingClientRect();
+      const lastBottom = content?.children.length ? Math.max(...[...content.children].map(child => child.getBoundingClientRect().bottom)) : null;
       const boundary = notes || footer;
-      const collision = last && boundary ? Math.max(0, last.bottom - boundary.getBoundingClientRect().top) : 0;
-      const remainingSpace = last && content ? content.getBoundingClientRect().bottom - last.bottom : 0;
+      const collision = lastBottom !== null && boundary ? Math.max(0, lastBottom - boundary.getBoundingClientRect().top) : 0;
+      const remainingSpace = lastBottom !== null && content ? content.getBoundingClientRect().bottom - lastBottom : 0;
       return { page: Number(sheet.dataset.page), theme: sheet.dataset.theme, background: colors.backgroundColor, foreground: colors.color, width: rect.width, height: rect.height, overflowY, overflowX, collision, remainingSpace, notes: notes?.querySelectorAll('li').length || 0, images: sheet.querySelectorAll('img').length };
     });
     const brokenNoteLinks = [...document.querySelectorAll('.note-ref a, .note-number')].filter(link => !document.getElementById(link.hash.slice(1))).map(link => link.hash);

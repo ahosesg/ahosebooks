@@ -13,10 +13,10 @@ notes:
     label: "Regulamento de Execução (UE) 2025/2547, Anexos I e II"
 ---
 <div class="boundary-pair">
-  <div><h3>Insumo comum</h3><p>Material utilizado na produção. Seu uso não o transforma automaticamente em precursor CBAM.</p></div>
-  <div><h3>Precursor relevante</h3><p>Mercadoria do Anexo I usada na produção, dentro dos limites e regras aplicáveis. Infraestrutura e equipamentos não integram esse limite.</p></div>
+  <div><h3>Insumo comum</h3><p>Usar um material na produção não o torna automaticamente precursor CBAM.</p></div>
+  <div><h3>Precursor relevante</h3><p>Mercadoria do Anexo I relevante ao processo. Infraestrutura e equipamentos ficam fora dos limites.</p></div>
 </div>
 
-A análise precisa confirmar **o produto final, a CN e o uso do precursor**. Quantidades, instalação e período permitem relacionar o insumo aos dados do bem produzido. Emissões diretas e indiretas entram conforme as regras aplicáveis, não como uma pegada completa da cadeia.<sup class="note-ref"><a id="chamada-8-1" href="#nota-8-1" role="doc-noteref" aria-label="Nota 1">1</a></sup>
+**Produto final, CN, uso, quantidade, instalação e período** ajudam a confirmar o vínculo. Os limites e a consideração de emissões diretas e indiretas seguem a metodologia CBAM.<sup class="note-ref"><a id="chamada-8-1" href="#nota-8-1" role="doc-noteref" aria-label="Nota 1">1</a></sup>
 
-<div class="insight"><p><strong>O limite de 50 t não é aplicado às vendas isoladas de precursor.</strong> A isenção depende do agregado anual do importador na UE, relativo às mercadorias elegíveis. O papel do fornecedor é analisado na cadeia de dados.</p></div>
+<div class="insight"><p><strong>50 t não é o limite do fornecedor de precursor.</strong> A isenção é avaliada no agregado anual do importador na UE.</p></div>

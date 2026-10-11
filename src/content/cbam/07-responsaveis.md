@@ -18,8 +18,6 @@ O importador é a referência para o agregado anual da regra de minimis. A opera
 
 O **EORI** é o identificador aduaneiro europeu. Razão social, EORI e papel na declaração ajudam a distinguir a pessoa jurídica responsável do contato comercial.<sup class="note-ref"><a id="chamada-7-1" href="#nota-7-1" role="doc-noteref" aria-label="Nota 1">1</a></sup>
 
-### Dados precisam corresponder à instalação e ao produto
-
-O operador conhece o processo e a produção. Quando um precursor vem de outra instalação, os dados podem depender também desse fornecedor. O período e as exigências metodológicas não são definidos apenas pelo pedido comercial.
+Os dados devem corresponder à instalação, ao produto e ao período aplicável. O pedido comercial não define sozinho as exigências metodológicas.
 
 <div class="insight"><p><strong>Incoterm sozinho não determina o declarante CBAM.</strong> Confirme a estrutura da importação e da representação aduaneira. Quem paga a fatura pode ter papel diferente de quem cumpre a obrigação.</p></div>

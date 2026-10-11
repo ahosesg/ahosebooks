@@ -12,14 +12,10 @@ notes:
     source: "CN"
     label: "Comissão Europeia: Nomenclatura Combinada"
 ---
-### Um caminho de conferência
-
 <ol class="numbered-steps">
   <li><div><strong>Caracterize a mercadoria.</strong>Composição, função, forma e processo ajudam a conferir a classificação. A NCM orienta a busca, mas o nome comercial e a semelhança entre produtos não bastam.</div></li>
   <li><div><strong>Confirme a CN europeia.</strong>Consulte CN e TARIC e esclareça dúvidas com o importador ou especialista aduaneiro. Considere a versão aplicável à operação.<sup class="note-ref"><a id="chamada-5-1" href="#nota-5-1" role="doc-noteref" aria-label="Nota 1">1</a></sup></div></li>
   <li><div><strong>Compare com o Anexo I.</strong>Leia código, descrição, exclusões e recortes “ex”. Uma posição curta pode abranger seus desdobramentos, respeitadas as condições da entrada.</div></li>
 </ol>
 
-<div class="record-strip"><strong>Evidências úteis à análise</strong><br/>Ficha técnica · NCM de partida · CN confirmado · entrada do Anexo I · fonte e data da consulta · responsável pela confirmação.</div>
-
-<div class="insight"><p><strong>Sem CN confirmado, a conclusão pode ser inconclusiva.</strong> A classificação deve corresponder à mercadoria efetivamente importada. A sequência desta página é uma organização didática, não um procedimento oficial de classificação.</p></div>
+<div class="insight"><p><strong>A classificação determina o diagnóstico.</strong> Sem CN confirmado, a hipótese permanece inconclusiva. O roteiro é uma organização didática, não um procedimento oficial de classificação.</p></div>

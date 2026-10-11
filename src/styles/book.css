@@ -357,7 +357,7 @@ body[data-mode='print'] .book { overflow-x: auto; }
 .code-map strong { display: block; font-size: 11pt; color: var(--page-heading); margin: 1mm 0 2mm; }
 .digit-row { display: flex; gap: 1.2mm; justify-content: center; }
 .digit-row i { width: 4.5mm; height: 5mm; background: var(--page-rule); border-radius: .5mm; }
-.digit-row .local-digit { background: var(--page-accent); border: .4mm solid var(--page-heading); }
+.digit-row .local-digit { background: var(--accent); border: .4mm solid var(--page-heading); }
 .code-connectors { width: 52%; height: 6mm; margin: 0 auto; border-left: .4mm solid var(--page-line); border-right: .4mm solid var(--page-line); border-top: .4mm solid var(--page-line); position: relative; top: 3mm; }
 .code-connectors:before { content: ''; height: 3mm; width: .4mm; background: var(--page-line); position: absolute; top: -3mm; left: 50%; }
 .code-branches { display: grid; grid-template-columns: 1fr 1fr; gap: 7mm; text-align: center; padding-top: 4mm; }
@@ -413,6 +413,11 @@ body[data-mode='print'] .book { overflow-x: auto; }
 .sheet[data-page='5'] .numbered-steps li { padding: 3mm 0; }
 .sheet[data-page='8'] .boundary-pair { margin: 4mm 0; }
 .sheet[data-page='10'] .insight { margin: 3mm 0; padding: 3mm 4mm; }
+.sheet[data-page='13'] .insight { margin: 3mm 0 0; }
+.sheet[data-page='10'] .book-figure { margin-bottom: 4mm; }
+.sheet[data-page='13'] .book-figure { margin-bottom: 4mm; }
+.sheet[data-page='4'] .insight { margin-top: 4mm; }
+.sheet-references .reference-list li { padding: 1.7mm 0; }
 .sheet[data-page='6'] .route-block { padding: 3mm 4mm; border: .3mm solid var(--page-line); background: var(--page-surface); margin-bottom: 4mm; }
 .sheet[data-page='6'] .route-node { border-top-color: var(--page-accent); background: var(--page-bg); padding: 4mm 3mm; }
 .case-scheme { display: flex; flex-wrap: wrap; align-items: center; gap: 1.5mm; color: var(--page-heading); margin: 3mm 0; font-size: 9.5pt; }
