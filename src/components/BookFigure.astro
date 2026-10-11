@@ -1,0 +1,58 @@
+---
+import ProductIcon from './ProductIcon.astro';
+import refs from '../data/references.json';
+interface Props { kind: string; }
+const { kind } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const url = (id: string) => refs.find(ref => ref.id === id)?.url;
+const sectors = [
+  { title: 'Cimento', kind: 'cement', example: 'Clínquer', code: '2523 10 00' },
+  { title: 'Ferro e aço', kind: 'steel', example: 'Parafusos e porcas', code: '7318' },
+  { title: 'Alumínio', kind: 'aluminium', example: 'Barras e perfis', code: '7604' },
+  { title: 'Fertilizantes', kind: 'fertiliser', example: 'Nitrogenados', code: '3102' },
+  { title: 'Hidrogênio', kind: 'hydrogen', example: 'Hidrogênio', code: '2804 10 00' },
+  { title: 'Eletricidade', kind: 'electricity', example: 'Energia elétrica', code: '2716 00 00' },
+];
+---
+<figure class:list={['book-figure', `figure-${kind}`]} data-figure={kind}>
+  {kind === 'sectors' && <>
+    <div class="sector-map">{sectors.map(sector => <div class="sector-card"><ProductIcon kind={sector.kind}/><h3>{sector.title}</h3><p>{sector.example}</p><code>{sector.code}</code></div>)}</div>
+    <figcaption><strong>Figura · Seis setores, mercadorias selecionadas.</strong> Exemplos de códigos do <a href={url('REG')}>Anexo I</a>; o mapa não reproduz a lista completa. Elaboração AHOS ESG.</figcaption>
+  </>}
+  {kind === 'classification' && <>
+    <div class="code-map" role="img" aria-label="O Sistema Harmonizado tem seis dígitos. NCM e CN acrescentam dois dígitos próprios, resultando em oito dígitos, sem equivalência automática.">
+      <div class="code-root"><span>Sistema Harmonizado</span><strong>6 dígitos · SH</strong><div class="digit-row">{Array.from({length: 6}).map(() => <i></i>)}</div></div>
+      <div class="code-connectors" aria-hidden="true"></div>
+      <div class="code-branches"><div><span>Brasil / Mercosul</span><strong>NCM · 8 dígitos</strong><div class="digit-row">{Array.from({length: 6}).map(() => <i></i>)}<i class="local-digit"></i><i class="local-digit"></i></div><p>SH + dois desdobramentos próprios</p></div><div><span>União Europeia</span><strong>CN · 8 dígitos</strong><div class="digit-row">{Array.from({length: 6}).map(() => <i></i>)}<i class="local-digit"></i><i class="local-digit"></i></div><p>SH + dois desdobramentos próprios</p></div></div>
+    </div>
+    <figcaption><strong>Figura · Estrutura dos códigos.</strong> Esquema de elaboração AHOS ESG, baseado na <a href={url('CN')}>CN europeia</a> e no <a href="https://www.gov.br/siscomex/pt-br/servicos/aprendendo-a-exportar/1-classificacao-fiscal-da-mercadoria/sh-e-ncm">Siscomex</a>.</figcaption>
+  </>}
+  {kind === 'roles' && <>
+    <div class="roles-map">
+      <div class="role-side"><span class="figure-label">Produção fora da UE</span><ProductIcon kind="cement"/><h3>Operador da instalação</h3><p>Produto, processo e dados de emissões segundo a metodologia aplicável.</p><div class="role-sub"><strong>Fornecedor de precursor</strong><p>Dados do insumo relevante para a produção de outro bem CBAM.</p></div></div>
+      <div class="role-transfer"><span>Dados</span><b aria-hidden="true">→</b><small>Trader pode intermediar a troca.</small></div>
+      <div class="role-side"><span class="figure-label">Obrigações na UE</span><svg class="product-icon" viewBox="0 0 64 64" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.3"><path d="M18 8h23l9 10v38H18z M40 8v12h10 M25 29h18 M25 37h18 M25 45h12"/></svg><h3>Declarante autorizado</h3><p>Declaração CBAM e entrega dos certificados correspondentes.</p><div class="role-sub"><strong>Importador / representante</strong><p>A identidade e o arranjo de representação definem quem atua como declarante.</p></div></div>
+    </div>
+    <figcaption><strong>Figura · Dados e obrigações na cadeia.</strong> Elaboração AHOS ESG com base nos <a href={url('REG')}>arts. 3, 5 e 6</a> e no <a href={url('G2')}>Guia 2, seção 2</a>. O trader não se torna declarante apenas por intermediar.</figcaption>
+  </>}
+  {kind === 'precursors' && <>
+    <div class="precursor-map">
+      <span class="figure-label">Exemplo hipotético · cadeia do cimento</span>
+      <div class="precursor-chain"><div><ProductIcon kind="cement"/><strong>Clínquer</strong><span>Fornecedor brasileiro</span></div><b aria-hidden="true">→</b><div><ProductIcon kind="cement"/><strong>Cimento</strong><span>Indústria brasileira</span></div><b aria-hidden="true">→</b><div><svg class="product-icon" viewBox="0 0 64 64" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.3"><path d="M9 53h46V23H43V11H31v18L9 19z M17 40h6 M30 40h6 M43 40h6"/></svg><strong>Importação UE</strong><span>Produto final abrangido</span></div></div>
+      <div class="emission-parts"><div><strong>Parcela do precursor</strong><p>Emissões incorporadas do clínquer utilizado.</p></div><span aria-hidden="true">+</span><div><strong>Parcela do processo</strong><p>Emissões atribuídas à produção do cimento.</p></div></div>
+      <div class="emission-result"><strong>Emissões incorporadas do cimento</strong><span>Dentro dos limites e critérios da metodologia CBAM.</span></div>
+    </div>
+    <figcaption><strong>Figura · Por que o fornecedor pode ser envolvido.</strong> Esquema conceitual sem escala ou proporções. Elaboração AHOS ESG com base no <a href={url('REG')}>Anexo IV</a> e no <a href={url('G2')}>Guia 2, seção 3</a>.</figcaption>
+  </>}
+  {kind === 'minimis' && <>
+    <img class="minimis-chart" src={`${base}/figures/minimis.svg`} alt="Dois gráficos hipotéticos. O primeiro compara totais anuais de 40, 50, 55 e 51 toneladas do mesmo importador; 55 resulta de 10 mais 45 de dois fornecedores. O segundo mostra 10 toneladas em janeiro, 50 em abril e 55 em setembro, no mesmo ano. A referência é 50 toneladas; a ultrapassagem alcança também as importações anteriores."/>
+    <figcaption><strong>Gráficos · Agregação e evolução do volume.</strong> Cenários hipotéticos alternativos e exemplo de acúmulo, apenas de mercadorias elegíveis. Elaboração AHOS ESG com base no <a href={url('REG')}>art. 2a e Anexo VII</a>.</figcaption>
+  </>}
+  {kind === 'documents' && <>
+    <div class="document-map">
+      <div class="diagnosis-scope"><span class="figure-label">Escopo deste e-book</span><svg viewBox="0 0 64 64" class="product-icon" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.3"><circle cx="27" cy="27" r="17"/><path d="M39 39l16 16 M18 27h18 M27 18v18"/></svg><h3>Diagnóstico preliminar</h3><p>Compara produto, operação e condições de aplicação.</p><span class="document-status">Organização didática AHOS ESG</span></div>
+      <div class="official-documents"><span class="figure-label">Documentos previstos nas normas</span><div class="official-pair"><div><strong>Relatório do operador</strong><p>Dados de emissões reais da instalação e resumo.</p><span class="document-status">Art. 10 · Reg. 2025/2547</span></div><span class="document-arrow" aria-hidden="true">→</span><div><strong>Declaração CBAM</strong><p>Informações anuais da importação, pelo declarante autorizado.</p><span class="document-status">Art. 6 · Reg. 2023/956</span></div></div><p class="official-relation">Dados do operador podem subsidiar a declaração. A triagem deste e-book não substitui esses documentos.</p></div>
+    </div>
+    <figcaption><strong>Figura · Diagnóstico e documentos têm funções distintas.</strong> Elaboração AHOS ESG com base no <a href={url('MET')}>Regulamento 2025/2547</a> e no <a href={url('REG')}>Regulamento 2023/956</a>.</figcaption>
+  </>}
+</figure>

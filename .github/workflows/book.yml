@@ -53,5 +53,6 @@ jobs:
             output/*.json
             output/review-*/
             public/images/
+            public/figures/
           retention-days: 90
           if-no-files-found: warn

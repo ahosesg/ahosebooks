@@ -13,50 +13,5 @@
     "caption": "A operação conecta produto, logística e destino aduaneiro.",
     "position": "50% 50%",
     "sha256": "dfd864f37ea4d3731694193ed83178c373e5549a57b4bc63047d1b0ee3df0bd5"
-  },
-  {
-    "id": "terminal",
-    "file": "terminal-erik-mclean-12442888.jpg",
-    "author": "Erik Mclean",
-    "shortTitle": "terminal de cargas",
-    "sourceUrl": "https://www.pexels.com/photo/stacks-of-cargo-containers-in-a-port-12442888/",
-    "downloadUrl": "https://images.pexels.com/photos/12442888/pexels-photo-12442888.jpeg?auto=compress&cs=tinysrgb&w=1800",
-    "license": "Pexels License",
-    "licenseUrl": "https://www.pexels.com/license/",
-    "checkedOn": "2026-10-11",
-    "alt": "Contêineres empilhados e guindastes de um terminal portuário.",
-    "caption": "O destino e o importador precisam estar identificados.",
-    "position": "50% 65%",
-    "sha256": "7c4b04afc41fd365cd5052d893ad5cc43bf69faddc287fd1360329a50975083d"
-  },
-  {
-    "id": "parafusos",
-    "file": "parafusos-nic-wood-28119515.jpg",
-    "author": "Nic Wood",
-    "shortTitle": "parafusos metálicos",
-    "sourceUrl": "https://www.pexels.com/photo/nuts-and-bolts-28119515/",
-    "downloadUrl": "https://images.pexels.com/photos/28119515/pexels-photo-28119515.jpeg?auto=compress&cs=tinysrgb&w=1800",
-    "license": "Pexels License",
-    "licenseUrl": "https://www.pexels.com/license/",
-    "checkedOn": "2026-10-11",
-    "alt": "Parafusos metálicos sobre uma superfície verde.",
-    "caption": "O código e a descrição definem o enquadramento.",
-    "position": "50% 50%",
-    "sha256": "df5a887488ecd8ef2b45a0dc837873dc488598c0cf11892c7dc9af9366d2a2de"
-  },
-  {
-    "id": "cimento",
-    "file": "cimento-robert-so-18468425.jpg",
-    "author": "Robert So",
-    "shortTitle": "instalação de cimento",
-    "sourceUrl": "https://www.pexels.com/photo/industrial-structures-at-a-cement-factory-18468425/",
-    "downloadUrl": "https://images.pexels.com/photos/18468425/pexels-photo-18468425.jpeg?auto=compress&cs=tinysrgb&w=1800",
-    "license": "Pexels License",
-    "licenseUrl": "https://www.pexels.com/license/",
-    "checkedOn": "2026-10-11",
-    "alt": "Estruturas, silos e equipamentos de uma instalação da indústria de cimento.",
-    "caption": "Os dados podem começar em um fornecedor de precursor.",
-    "position": "50% 50%",
-    "sha256": "08a8b471809ed1587858ec8dd55fc71f67237210d3ac2487a1f150caea22c846"
   }
 ]

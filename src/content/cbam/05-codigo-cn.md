@@ -3,23 +3,23 @@ page: 5
 title: Como conferir o código CN do meu produto
 nav: Conferência do código CN
 kicker: Classificação com evidências
-sources: [REG, CN]
+sources: [REG, CN, G2]
+intro: "NCM e CN partem do Sistema Harmonizado, mas têm desdobramentos próprios. Copiar os oito dígitos da NCM não confirma a classificação europeia."
+figure: classification
 notes:
   - number: 1
-    text: "Use a classificação válida na data da operação e registre a consulta."
+    text: "A CN é atualizada periodicamente. A consulta deve considerar a classificação e as notas válidas na data da operação."
     source: "CN"
-    label: "TARIC: pauta aduaneira europeia"
+    label: "Comissão Europeia: Nomenclatura Combinada"
 ---
-<p class="lead">A NCM brasileira e a CN europeia partem do Sistema Harmonizado, cujos primeiros seis dígitos são uma referência comum. Os oito dígitos não são automaticamente equivalentes.</p>
+### Um caminho de conferência
 
 <ol class="numbered-steps">
-  <li><div><strong>Descreva a mercadoria.</strong>Reúna composição, função, forma, processo de fabricação e ficha técnica. Nome comercial sozinho pode ser insuficiente.</div></li>
-  <li><div><strong>Use a NCM como ponto de partida.</strong>Compare o enquadramento no Sistema Harmonizado e os desdobramentos europeus, sem copiar os oito dígitos.</div></li>
-  <li><div><strong>Confirme a CN da importação.</strong>Consulte a pauta europeia e peça validação ao importador ou especialista aduaneiro. Registre a versão aplicável na data da operação.<sup class="note-ref"><a id="chamada-5-1" href="#nota-5-1" role="doc-noteref" aria-label="Nota 1">1</a></sup></div></li>
-  <li><div><strong>Leia o Anexo I completo para esse código.</strong>Uma posição curta pode incluir seus desdobramentos, respeitadas exclusões expressas e recortes “ex”. Confira também a descrição.</div></li>
-  <li><div><strong>Guarde a evidência.</strong>Arquive a consulta, a confirmação do cliente e o responsável pela análise. Reveja quando produto ou classificação mudar.</div></li>
+  <li><div><strong>Caracterize a mercadoria.</strong>Composição, função, forma e processo ajudam a conferir a classificação. A NCM orienta a busca, mas o nome comercial e a semelhança entre produtos não bastam.</div></li>
+  <li><div><strong>Confirme a CN europeia.</strong>Consulte CN e TARIC e esclareça dúvidas com o importador ou especialista aduaneiro. Considere a versão aplicável à operação.<sup class="note-ref"><a id="chamada-5-1" href="#nota-5-1" role="doc-noteref" aria-label="Nota 1">1</a></sup></div></li>
+  <li><div><strong>Compare com o Anexo I.</strong>Leia código, descrição, exclusões e recortes “ex”. Uma posição curta pode abranger seus desdobramentos, respeitadas as condições da entrada.</div></li>
 </ol>
 
-<div class="record-strip"><strong>Registro mínimo</strong><br/>Produto e ficha técnica · NCM de partida · CN confirmado · entrada do Anexo I · fonte e data · responsável pela validação.</div>
+<div class="record-strip"><strong>Evidências úteis à análise</strong><br/>Ficha técnica · NCM de partida · CN confirmado · entrada do Anexo I · fonte e data da consulta · responsável pela confirmação.</div>
 
-<div class="insight"><p><strong>CN não confirmado = diagnóstico inconclusivo.</strong> A semelhança entre produtos, nomes ou códigos não substitui a classificação da mercadoria efetivamente importada.</p></div>
+<div class="insight"><p><strong>Sem CN confirmado, a conclusão pode ser inconclusiva.</strong> A classificação deve corresponder à mercadoria efetivamente importada. A sequência desta página é uma organização didática, não um procedimento oficial de classificação.</p></div>

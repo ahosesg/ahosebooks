@@ -1,26 +1,19 @@
-# Histórico de edições
+# Histórico de preparação
 
-## 1.1.0 · 11/10/2026
+## Edição 1.0 · revisão de 11/10/2026
 
-- Capa fotográfica com o fluxograma original e a marca AHOS ESG; retirada a identificação de cadernos.
-- Strong reforçado na capa e nas páginas 3, 6, 8, 10 e 14, com fundos escuros preservados na impressão.
-- Fotografias em quatro páginas internas, com créditos e licenças rastreáveis.
-- Fontes retiradas dos rodapés correntes; notas numeradas vinculadas ao texto e bibliografia final preservada.
-- Datas de corte e atualização editorial concentradas na última página.
-- PDF com nome de versão próprio e verificações de imagens, notas e paletas.
-- Mantidos o recorte técnico, a árvore, os casos, a ficha e as 15 páginas A4.
+- Conferência do conteúdo em fontes oficiais do CBAM, com matriz de rastreabilidade.
+- Mantida a capa validada e corrigida sua identificação para edição 1.0.
+- Retiradas as fotografias internas e seus créditos; preservada a fotografia da capa.
+- Incluídos mapas de setores, estrutura CN/NCM, papéis na cadeia, precursores e documentos oficiais.
+- Incluídos dois gráficos hipotéticos: comparação de totais anuais e evolução cumulativa frente ao limite de 50 t.
+- Retirada a ficha da seção 12, substituída por diagnóstico e documentos oficiais.
+- Explicitado que R1 a R5 e o roteiro são uma organização didática AHOS ESG.
+- Reforçadas as condições da isenção e a análise do aperfeiçoamento ativo antes de concluir ausência de escopo direto.
+- Datas de revisão somente na última página; notas numeradas e rodapés sem listas de fontes.
 
-## 1.0.1 · 08/10/2026
+## Revisões internas anteriores
 
-- Alternância entre Strong e Light nas páginas internas, conforme as paletas AHOS ESG.
-- Strong nas páginas 3, 6, 8, 10 e 14; demais páginas em Light.
-- Cores de texto, tabelas, diagramas, destaques e rodapés adaptadas por tema.
-- Conteúdo técnico, referências, árvore de decisão e 15 páginas preservados.
+Os identificadores 1.0.0 e 1.0.1 (08/10/2026) e 1.1.0 (11/10/2026) foram usados durante a preparação, antes da publicação. O histórico do Git mantém os arquivos, commits e relatórios dessas revisões. A edição pública permanece 1.0.
 
-## 1.0.0 · 08/10/2026
-
-- Primeira edição: 15 páginas A4, leitura web, prévia de impressão e PDF.
-- Escopo e classificação CN, rotas de exportação, papéis da cadeia, precursores, exceções e minimis.
-- Árvore de decisão com cinco resultados, quatro exemplos e ficha de diagnóstico.
-- Base REG + ALT + G1 + G2, com fontes oficiais complementares.
-- Identidade AHOS ESG e geração automatizada no GitHub Actions.
+A preparação inicial definiu 15 páginas, layout A4, CN, rotas, papéis, precursores, exceções, minimis, árvore e casos. As revisões seguintes aplicaram Strong/Light, fotografia na capa, notas numeradas e concentração da data na última página.

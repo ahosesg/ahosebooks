@@ -1,0 +1,19 @@
+{
+  "kind": "hypothetical",
+  "unit": "tonnes-net-mass",
+  "sameImporterAndCalendarYear": true,
+  "eligibleGoodsOnly": true,
+  "thresholdTonnes": 50,
+  "legalBasis": "Regulamento (UE) 2023/956, artigo 2a e Anexo VII",
+  "totals": [
+    { "label": "Abaixo do limite", "parts": [40] },
+    { "label": "No limite", "parts": [50] },
+    { "label": "Dois fornecedores", "parts": [10, 45] },
+    { "label": "Acima do limite", "parts": [51] }
+  ],
+  "cumulative": [
+    { "month": 1, "label": "Jan.", "tonnes": 10 },
+    { "month": 4, "label": "Abr.", "tonnes": 50 },
+    { "month": 9, "label": "Set.", "tonnes": 55 }
+  ]
+}

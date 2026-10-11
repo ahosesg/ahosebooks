@@ -2,7 +2,7 @@
   {
     "id": "REG",
     "title": "Regulamento (UE) 2023/956",
-    "detail": "Versão consolidada de 20/10/2025, com as alterações do Regulamento (UE) 2025/2083. Artigos 2 e 2a; Anexos I, III e VII.",
+    "detail": "Texto consolidado de 20/10/2025. Arts. 2, 2a, 3, 5 a 8, 20 e 22; Anexos I, III, IV e VII.",
     "url": "https://eur-lex.europa.eu/eli/reg/2023/956/2025-10-20/eng",
     "kind": "Norma"
   },
@@ -28,6 +28,13 @@
     "kind": "Guia"
   },
   {
+    "id": "MET",
+    "title": "Regulamento de Execução (UE) 2025/2547",
+    "detail": "Metodologia do regime definitivo; art. 10 e Anexo IV: relatório do operador e resumo.",
+    "url": "https://eur-lex.europa.eu/eli/reg_impl/2025/2547/oj/eng",
+    "kind": "Norma"
+  },
+  {
     "id": "AT1",
     "title": "CBAM De Minimis Threshold Assessment",
     "detail": "Comissão Europeia, 30/09/2026. Avaliação do limite de 50 toneladas.",
@@ -50,9 +57,19 @@
   },
   {
     "id": "CN",
-    "title": "TARIC · Consulta da pauta aduaneira europeia",
-    "detail": "Consulta de códigos e medidas. Use a classificação válida na data da operação.",
-    "url": "https://ec.europa.eu/taxation_customs/dds2/taric/taric_consultation.jsp?Lang=en",
-    "kind": "Consulta"
+    "title": "Classificação aduaneira: CN, TARIC e NCM",
+    "detail": "Estrutura dos códigos e consulta aplicável à operação.",
+    "url": "https://taxation-customs.ec.europa.eu/customs/common-customs-tariff-cct/tariff-classification-goods/combined-nomenclature_en",
+    "kind": "Consulta",
+    "related": [
+      {
+        "title": "TARIC",
+        "url": "https://ec.europa.eu/taxation_customs/dds2/taric/taric_consultation.jsp?Lang=en"
+      },
+      {
+        "title": "Siscomex: SH e NCM",
+        "url": "https://www.gov.br/siscomex/pt-br/servicos/aprendendo-a-exportar/1-classificacao-fiscal-da-mercadoria/sh-e-ncm"
+      }
+    ]
   }
 ]

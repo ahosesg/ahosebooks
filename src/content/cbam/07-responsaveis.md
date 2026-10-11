@@ -4,27 +4,22 @@ title: Quem responde por cada informação?
 nav: Clientes, traders e responsáveis
 kicker: Atores da cadeia
 sources: [REG, G1, G2]
+intro: "Produzir dados fora da UE e cumprir as obrigações CBAM da importação são papéis distintos. A intermediação comercial pode conectar os atores, sem transferir automaticamente a obrigação legal."
+figure: roles
 notes:
   - number: 1
-    text: "Pedidos comerciais podem exigir informações adicionais. Registre separadamente o fundamento regulatório e o que foi acordado com o cliente."
+    text: "Pedidos comerciais podem incluir informações além das exigências CBAM. O fundamento regulatório e o que foi acordado com o cliente devem ser distinguidos."
     source: "G2"
-    label: "Comissão Europeia: guia para operadores fora da UE"
+    label: "Comissão Europeia: Guia 2, seção 2"
 ---
-<p class="lead">A obrigação legal na UE e a produção de dados fora da UE são responsabilidades diferentes. Identifique as entidades envolvidas e combine a troca de informações.<sup class="note-ref"><a id="chamada-7-1" href="#nota-7-1" role="doc-noteref" aria-label="Nota 1">1</a></sup></p>
+### O importador precisa estar identificado
 
-<table class="responsibility-table">
-  <thead><tr><th>Ator</th><th>Papel na operação</th><th>Informação a confirmar</th></tr></thead>
-  <tbody>
-    <tr><td>Produtor fora da UE</td><td>Conhece instalação, processo e produto.</td><td>Mercadoria, origem e dados de produção conforme a metodologia aplicável.</td></tr>
-    <tr><td>Fornecedor de precursor</td><td>Produz insumo relevante para outro bem CBAM.</td><td>Tipo, quantidade, instalação, período e emissões quando requeridas.</td></tr>
-    <tr><td>Trader</td><td>Intermedeia a venda e o fluxo de documentos.</td><td>Destino final, importador e canal de envio dos dados.</td></tr>
-    <tr><td>Importador / representante indireto</td><td>Atua na importação, conforme o arranjo legal.</td><td>CN, regime aduaneiro, identidade do importador e agregado anual para minimis.</td></tr>
-    <tr><td>Declarante CBAM autorizado</td><td>Cumpre as obrigações CBAM.</td><td>Declaração, emissões, verificação aplicável e entrega de certificados.</td></tr>
-  </tbody>
-</table>
+O importador é a referência para o agregado anual da regra de minimis. A operação também precisa identificar o **declarante CBAM autorizado**, que pode ser o importador ou seu representante aduaneiro indireto, conforme as condições legais.
 
-### Identifique a pessoa jurídica, além do contato
+O **EORI** é o identificador aduaneiro europeu. Razão social, EORI e papel na declaração ajudam a distinguir a pessoa jurídica responsável do contato comercial.<sup class="note-ref"><a id="chamada-7-1" href="#nota-7-1" role="doc-noteref" aria-label="Nota 1">1</a></sup>
 
-Solicite a razão social do importador, seu identificador **EORI** (registro aduaneiro europeu), a entidade responsável pelo CBAM e o contato operacional. Um distribuidor, cliente ou agente comercial pode ter papel diferente do importador.
+### Dados precisam corresponder à instalação e ao produto
 
-<div class="insight"><p><strong>Incoterm sozinho não resolve a atribuição.</strong> Confirme a estrutura da importação e da representação aduaneira. Não presuma que o cliente que paga a fatura seja o declarante CBAM.</p></div>
+O operador conhece o processo e a produção. Quando um precursor vem de outra instalação, os dados podem depender também desse fornecedor. O período e as exigências metodológicas não são definidos apenas pelo pedido comercial.
+
+<div class="insight"><p><strong>Incoterm sozinho não determina o declarante CBAM.</strong> Confirme a estrutura da importação e da representação aduaneira. Quem paga a fatura pode ter papel diferente de quem cumpre a obrigação.</p></div>

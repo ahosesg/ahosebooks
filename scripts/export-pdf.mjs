@@ -55,14 +55,18 @@ try {
     const cover = document.querySelector('.sheet-cover');
     const forbiddenCoverText = /ATUALIZADO EM|outubro de 2026|CADERNOS AHOS/i.test(cover.textContent);
     const obsoleteFooter = [...document.querySelectorAll('.page-footer')].some(footer => /Fontes:/.test(footer.textContent));
-    return { pages, images, brokenNoteLinks, forbiddenCoverText, obsoleteFooter, fonts: ['400 16px Inter', '600 16px Inter', '600 16px Montserrat', '700 16px Montserrat'].map(font => ({ font, loaded: document.fonts.check(font) })) };
+    const internalPhotos = [...document.querySelectorAll('.sheet:not(.sheet-cover) img')].filter(img => /\.(jpe?g|png|webp)(?:\?|$)/i.test(img.getAttribute('src') || '')).length;
+    const figures = [...document.querySelectorAll('[data-figure]')].map(figure => ({ kind: figure.dataset.figure, page: Number(figure.closest('.sheet').dataset.page), width: figure.getBoundingClientRect().width, height: figure.getBoundingClientRect().height }));
+    const worksheetRemoved = !document.querySelector('.worksheet-group, .write-field');
+    return { pages, images, figures, internalPhotos, worksheetRemoved, brokenNoteLinks, forbiddenCoverText, obsoleteFooter, fonts: ['400 16px Inter', '600 16px Inter', '600 16px Montserrat', '700 16px Montserrat'].map(font => ({ font, loaded: document.fonts.check(font) })) };
   });
   if (report.pages.length !== edition.pageCount) failures.push('Quantidade de páginas HTML incorreta');
   report.pages.forEach(p => {
     if (p.overflowY > 2 || p.overflowX > 2 || p.collision > 1) failures.push(`Página ${p.page}: conteúdo excede a área de impressão (${JSON.stringify(p)})`);
     if (design.strongPages.includes(p.page) && (p.theme !== 'strong' || p.background !== 'rgb(15, 23, 19)' || p.foreground !== 'rgb(244, 245, 242)')) failures.push(`Página ${p.page}: paleta Strong não aplicada`);
   });
-  if (report.images.length < 5 || report.images.some(img => !img.loaded)) failures.push('Fotografias ausentes ou não carregadas');
+  if (report.images.length !== 2 || report.images.some(img => !img.loaded)) failures.push('Fotografia da capa ou gráfico vetorial ausente');
+  if (report.internalPhotos || report.figures.length !== 6 || !report.worksheetRemoved) failures.push('Fotografias internas, ficha ou figuras não atendem à edição');
   if (report.brokenNoteLinks.length || report.forbiddenCoverText || report.obsoleteFooter) failures.push('Notas, capa ou rodapés não atendem à edição');
   report.fonts.forEach(font => { if (!font.loaded) failures.push(`Fonte não carregada: ${font.font}`); });
   await mkdir('output', { recursive: true });

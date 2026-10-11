@@ -3,6 +3,6 @@ import references from '../data/references.json';
 import photos from '../data/images.json';
 ---
 <ol class="reference-list">
-  {references.map((ref, i) => <li><span class="ref-code">{String(i + 1).padStart(2, '0')}</span><div><a href={ref.url}>{ref.title}</a><p>{ref.detail}</p></div><span class="ref-kind">{ref.kind}</span></li>)}
+  {references.map((ref, i) => <li><span class="ref-code">{String(i + 1).padStart(2, '0')}</span><div><a href={ref.url}>{ref.title}</a><p>{ref.detail}</p>{'related' in ref && <p class="reference-related">{ref.related.map((item, index) => <>{index > 0 && ' · '}<a href={item.url}>{item.title}</a></>)}</p>}</div><span class="ref-kind">{ref.kind}</span></li>)}
 </ol>
-<section class="image-credits" aria-label="Créditos das fotografias"><h3>Fotografias e licença de uso</h3><p>{photos.map((photo, i) => <>{i > 0 && ' · '}<a href={photo.sourceUrl}>{photo.author}: {photo.shortTitle}</a></>)}.</p><p>Imagens gratuitas sob a <a href="https://www.pexels.com/license/">licença Pexels</a>, usadas como ilustração. Diagramas: AHOS ESG.</p></section>
+<section class="image-credits" aria-label="Créditos visuais"><h3>Créditos visuais</h3><p>Fotografia da capa: {photos.map(photo => <a href={photo.sourceUrl}>{photo.author} / Pexels</a>)}. Uso gratuito sob a <a href="https://www.pexels.com/license/">licença Pexels</a>. Figuras e gráfico: elaboração AHOS ESG, com bases e exemplos indicados junto aos elementos.</p></section>

@@ -1,27 +1,28 @@
 # AHOS Ebooks
 
-Edição web e PDF A4 de **Minha empresa está no CBAM?**, da AHOS ESG. São 15 páginas com diagnóstico por produto, cliente e operação, árvore de decisão, casos e ficha para preenchimento. Data de corte editorial: **08/10/2026**.
+Edição **1.0**, ainda não publicada, de **Minha empresa está no CBAM?**, da AHOS ESG. São 15 páginas A4 para diagnóstico preliminar de mercadoria e operação. Conteúdo e referências conferidos em **11/10/2026**.
 
 ## Estrutura
 
 | Conteúdo | Arquivo / pasta |
 | --- | --- |
-| Textos das 15 páginas | `src/content/cbam/*.md` |
-| Edição e versão | `src/data/edition.json` |
-| Fontes oficiais e links | `src/data/references.json` |
-| Fotografias, autores e licenças | `src/data/images.json` e `public/images/` |
-| Notas de rodapé | Campo `notes` nos textos e `src/components/PageNotes.astro` |
-| Cores, tipografia e A4 | `src/styles/book.css` |
-| Distribuição Strong / Light | `src/data/design.json` |
-| Árvore de decisão editável | `src/components/DecisionTree.astro` |
-| Ilustração vetorial da capa | `src/components/CoverGraphic.astro` |
-| PDF aprovado da edição | `public/downloads/minha-empresa-esta-no-cbam-v1.1.0.pdf` |
-| Processo editorial | `docs/PROCESSO_EDITORIAL.md` |
-| Validação da revisão atual | [docs/VALIDACAO_1.1.0.md](docs/VALIDACAO_1.1.0.md) |
+| Textos e notas das 15 páginas | `src/content/cbam/*.md` |
+| Edição e data da conferência | `src/data/edition.json` |
+| Referências oficiais | `src/data/references.json` |
+| Fotografia licenciada da capa | `src/data/images.json` e `public/images/` |
+| Figuras editáveis | `src/components/BookFigure.astro` e `ProductIcon.astro` |
+| Gráficos ilustrativos e dados | `public/figures/minimis.svg` e `src/data/chart-examples.json` |
+| Reprodução dos gráficos | `scripts/create-figures.py` |
+| Notas de rodapé | `src/components/PageNotes.astro` |
+| Layout e paletas | `src/styles/book.css` e `src/data/design.json` |
+| Árvore de decisão | `src/components/DecisionTree.astro` |
+| PDF da edição | `public/downloads/minha-empresa-esta-no-cbam-edicao-1.0.pdf` |
+| Auditoria do conteúdo | [docs/AUDITORIA_CONTEUDO_EDICAO_1.0.md](docs/AUDITORIA_CONTEUDO_EDICAO_1.0.md) |
+| Revisão visual e evidências | [docs/VALIDACAO_EDICAO_1.0.md](docs/VALIDACAO_EDICAO_1.0.md) |
 
-## Desenvolvimento
+## Desenvolvimento e exportação
 
-Use Node.js 24 e npm. As versões das dependências e das fontes estão fixadas no `package-lock.json`.
+Use Node.js 24 e npm. Dependências e fontes são fixadas no lockfile.
 
 ```sh
 npm ci
@@ -29,9 +30,7 @@ npm run assets
 npm run dev
 ```
 
-Abra o endereço informado pelo Astro, com o caminho `/ahosebooks/`. A interface oferece leitura contínua, sumário, prévia A4 e download do PDF. Os textos também podem ser editados diretamente no GitHub. Não há cadastro, envio de dados ou serviços externos de fontes.
-
-## Gerar o e-book
+O Astro informa o endereço local; use o caminho `/ahosebooks/`. A interface oferece leitura contínua, sumário, prévia A4 e download. Não coleta dados.
 
 ```sh
 npm run assets
@@ -42,20 +41,20 @@ npm run verify:pdf
 npm run build
 ```
 
-O segundo build inclui o novo PDF em `dist/`. O exportador usa o mesmo HTML, CSS e fontes da edição web, com regras de impressão. Ele interrompe a geração se detectar conteúdo fora da página, colisão com rodapé ou fontes ausentes. Os relatórios e as prévias das páginas ficam em `output/`. A exportação também verifica os fundos Strong, o carregamento das fotografias, os links das notas e a ausência das antigas siglas nos rodapés. Confira visualmente as 15 páginas antes de aprovar uma nova edição.
+O segundo build inclui o PDF atual no site estático. A exportação verifica geometria, paletas, fontes, notas, carregamento dos elementos visuais e ausência de fotografias internas e da ficha retirada. Relatórios e prévias ficam em `output/`; a inspeção das 15 páginas completa a revisão.
 
-## GitHub Actions e publicação
+## Conteúdo e imagens
 
-O workflow **Book · build and PDF** verifica e compila o livro em cada alteração de conteúdo ou código na `main`, e nas pull requests. O artefato `ahos-cbam-ebook` contém PDF, site estático e relatórios, com retenção de 90 dias. Após a exportação passar, o workflow versiona o PDF e as fotografias na `main`, sem publicar o site. Alterações somente nesses arquivos não iniciam outra geração. A aprovação visual continua necessária para a entrega.
+O objetivo é reconhecer exposição ao CBAM, sem calcular certificados, ensinar o preenchimento oficial ou certificar conformidade. R1 a R5, a árvore, a sequência de leitura e os casos são recursos didáticos da AHOS ESG. As regras são conferidas nas normas e guias indicados junto aos trechos e na bibliografia final.
 
-Para publicar: ative **Settings → Pages → Source: GitHub Actions** e execute **Publish · GitHub Pages** na aba Actions. O endereço previsto pela configuração é `https://ahosesg.github.io/ahosebooks/`; sua disponibilidade depende da ativação e de uma execução bem-sucedida. O workflow é manual para permitir conferir cada edição antes da publicação.
+A seção 12 distingue o diagnóstico do relatório do operador e da declaração CBAM. A ficha de preenchimento criada nas revisões anteriores foi retirada. A fotografia validada permanece somente na capa, com crédito e licença Pexels. Figuras maiores explicam setores, códigos, papéis, precursores e documentos; os dois gráficos usam dados explicitamente hipotéticos. Para reproduzi-los, instale matplotlib e execute `python scripts/create-figures.py`.
 
-## Identidade e revisão
+Strong permanece na capa e nas páginas 3, 6, 8, 10 e 14. O restante usa Light. Montserrat nos títulos e Inter no corpo, com fontes auto-hospedadas sob SIL Open Font License. Datas de revisão ficam apenas na última página; rodapés correntes exibem marca e paginação.
 
-Marca tipográfica AHOS ESG, paleta verde definida no briefing, Montserrat nos títulos e Inter no corpo. As fontes são auto-hospedadas, distribuídas pelos pacotes Fontsource sob SIL Open Font License. Esta aplicação tipográfica é uma escolha editorial, não uma declaração de manual oficial de marca.
+## Compilação e publicação
 
-A edição 1.1.0 combina **Light** e **Strong**, usando as cores confirmadas no documento-base AHOS ESG v3.0. Strong ocupa a capa e as páginas 3, 6, 8, 10 e 14, com fundo Green Black, superfícies Graphite Green/Dark Moss, textos Off White/Light Sage e Vibrant Leaf em destaques pontuais. A distribuição é editável em `src/data/design.json`; as cores ficam no CSS. O tema de cada página é o mesmo na web e no PDF. A árvore de decisão, a ficha e as referências permanecem claras. A capa tem fotografia de fundo, título e fluxograma preservados. As imagens internas possuem créditos clicáveis. Notas numeradas relacionam observações e fontes aos trechos correspondentes; o rodapé corrente contém apenas marca e número da página. Datas de atualização aparecem somente na última página.
+**Book · build and PDF** compila alterações de conteúdo e código na main e em pull requests. Preserva PDF, site e relatórios no artefato `ahos-cbam-ebook`, e versiona o PDF aprovado pelos checks na main. Isso não publica o site.
 
-REG + ALT + G1 + G2 sustentam o conteúdo. Os guias não substituem o regulamento. Propostas são indicadas como propostas. Este material é educativo e oferece diagnóstico preliminar; não constitui parecer jurídico ou certificação de conformidade.
+A publicação continua manual: **Settings → Pages → Source: GitHub Actions**, seguido de **Publish · GitHub Pages**. O endereço configurado é `https://ahosesg.github.io/ahosebooks/`; sua disponibilidade depende da ativação e de uma execução bem-sucedida. Esta revisão não executa a publicação.
 
-Código e textos deste repositório não recebem uma licença de reutilização por esta entrega. As fontes tipográficas mantêm suas licenças próprias. Fotografias seguem a licença Pexels, com autor, página de origem e licença registrados no manifesto. Os arquivos aprovados são mantidos no repositório para que a exportação não dependa de downloads externos; `npm run assets` baixa somente arquivos ausentes e verifica seu hash quando fixado. Consulte [docs/IMAGENS.md](docs/IMAGENS.md). O nome do PDF inclui a edição; a URL de download original continua disponível com a versão atual.
+**A edição permanece 1.0 durante a preparação para a primeira publicação.** Identificadores anteriores 1.0.0, 1.0.1 e 1.1.0 registraram revisões internas, sem representar edições publicadas. O histórico do Git preserva essas etapas. Código e textos não recebem uma licença de reutilização por esta entrega; fotografia e fontes mantêm suas licenças próprias.

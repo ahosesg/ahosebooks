@@ -1,0 +1,13 @@
+---
+interface Props { kind: string; }
+const { kind } = Astro.props;
+const paths: Record<string, string> = {
+  cement: 'M20 12h24l5 10v31H15V22z M20 12v11h24V12 M15 30h34 M24 37h16v10H24z',
+  steel: 'M17 9h30v10H17z M26 19v34h12V19 M21 27h22 M21 34h22 M21 41h22 M21 48h22',
+  aluminium: 'M12 15h40v10H37v23h15v10H12V48h15V25H12z',
+  fertiliser: 'M16 33h32v24H16z M32 33V13 M32 24c-12 0-16-8-15-14 11 0 16 5 15 14 M32 20c0-10 8-15 16-14 0 10-6 15-16 14 M16 42h32',
+  hydrogen: 'M13 23a10 10 0 1 0 0 .1 M51 40a10 10 0 1 0 0 .1 M23 28l18 9 M25 23l20 10',
+  electricity: 'M36 7L15 36h16l-4 21 23-31H34z',
+};
+---
+<svg class="product-icon" viewBox="0 0 64 64" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linejoin="round" stroke-linecap="round"><path d={paths[kind] || paths.cement}/></svg>

@@ -6,9 +6,9 @@ kicker: Da transição ao regime definitivo
 sources: [ALT, G1, AT1, AT2, DEF]
 notes:
   - number: 1
-    text: "Os certificados relativos às importações de 2026 seguem o calendário do regime definitivo."
-    source: "DEF"
-    label: "Comissão Europeia: regime definitivo"
+    text: "Venda de certificados: art. 20. Declaração e entrega anual: arts. 6 e 22. O regulamento fixa a primeira declaração em 2027 para as importações de 2026."
+    source: "REG"
+    label: "Regulamento (UE) 2023/956, arts. 6, 20 e 22"
   - number: 2
     text: "A ampliação citada permanece uma proposta nas fontes consultadas para esta edição."
     source: "AT2"

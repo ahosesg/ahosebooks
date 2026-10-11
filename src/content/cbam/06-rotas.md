@@ -9,8 +9,6 @@ notes:
     text: "A intermediação comercial não cria, por si só, uma isenção."
     source: "REG"
     label: "Regulamento (UE) 2023/956"
-image: porto
-imageHeight: 22
 ---
 <p class="lead">O endereço do comprador não basta. Confirme o destino da importação, a mercadoria que entra na UE e o regime aduaneiro.<sup class="note-ref"><a id="chamada-6-1" href="#nota-6-1" role="doc-noteref" aria-label="Nota 1">1</a></sup></p>
 

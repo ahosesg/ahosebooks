@@ -4,14 +4,14 @@ import CoverGraphic from './CoverGraphic.astro';
 import DecisionTree from './DecisionTree.astro';
 import ReferenceList from './ReferenceList.astro';
 import PageNotes from './PageNotes.astro';
-import EditorialImage from './EditorialImage.astro';
+import BookFigure from './BookFigure.astro';
 import photos from '../data/images.json';
 import edition from '../data/edition.json';
 import design from '../data/design.json';
 interface Props { entry: CollectionEntry<'cbam'> }
 const { entry } = Astro.props;
 const { Content } = await render(entry);
-const { page, title, kicker, layout, notes, image, imageCaption, imageHeight } = entry.data;
+const { page, title, kicker, layout, notes, intro, figure } = entry.data;
 const pageId = `pagina-${page}`;
 const theme = design.strongPages.includes(page) ? 'strong' : design.defaultTheme;
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
@@ -31,7 +31,7 @@ const coverPhoto = photos.find(photo => photo.id === 'porto');
     <footer class="cover-bottom"><span class="cover-credit">Fotografia de fundo<br/><a href={coverPhoto?.sourceUrl}>{coverPhoto?.author} / Pexels</a></span><span>EDIÇÃO {edition.version}<br/><strong>Guia para empresas brasileiras</strong></span></footer>
   </> : <>
     <header class="page-heading"><p class="eyebrow"><span>{String(page - 1).padStart(2, '0')}</span> {kicker}</p><h2 id={`${pageId}-title`}>{title}</h2></header>
-    <div class="page-content">{image && <EditorialImage id={image} caption={imageCaption} height={imageHeight}/>}<Content/>{layout === 'tree' && <DecisionTree/>}{layout === 'references' && <ReferenceList/>}</div>
+    <div class="page-content">{intro && <p class="lead">{intro}</p>}{figure && <BookFigure kind={figure}/>}<Content/>{layout === 'tree' && <DecisionTree/>}{layout === 'references' && <ReferenceList/>}</div>
     {notes.length > 0 && <PageNotes page={page} notes={notes}/>}
     <footer class="page-footer">
       <span class="footer-brand">AHOS ESG</span>
