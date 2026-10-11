@@ -35,11 +35,11 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       <aside class="contents">
         <p class="eyebrow">NESTA EDIÇÃO</p>
         <nav aria-label="Sumário"><ol>{pages.map(p => <li><a href={`#pagina-${p.data.page}`}><span>{String(p.data.page).padStart(2, '0')}</span>{p.data.nav}</a></li>)}</ol></nav>
-        <div class="edition-stamp"><span>Edição {edition.version}</span><strong>08 OUT 2026</strong><p>Diagnóstico por produto,<br/>cliente e operação.</p></div>
+        <div class="edition-stamp"><span>Edição {edition.version}</span><p>Diagnóstico por produto,<br/>cliente e operação.</p></div>
       </aside>
       <main id="livro" class="book"><div class="a4-notice" role="status">Prévia de paginação A4. O PDF mantém o tamanho de página para impressão.</div>{pages.map(entry => <BookPage entry={entry}/>)}</main>
     </div>
-    <footer class="site-footer"><span>AHOS ESG · Cadernos de comércio & clima</span><a href="#pagina-1">Voltar ao início ↑</a></footer>
+    <footer class="site-footer"><span>AHOS ESG · Conhecimento aplicado em carbono</span><a href="#pagina-1">Voltar ao início ↑</a></footer>
     <script>
       const controls = document.querySelectorAll<HTMLButtonElement>('[data-view]');
       const setView = (mode: string) => {

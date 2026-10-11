@@ -1,6 +1,8 @@
 ---
 import references from '../data/references.json';
+import photos from '../data/images.json';
 ---
 <ol class="reference-list">
-  {references.map(ref => <li><span class="ref-code">{ref.id}</span><div><a href={ref.url}>{ref.title}</a><p>{ref.detail}</p></div><span class="ref-kind">{ref.kind}</span></li>)}
+  {references.map((ref, i) => <li><span class="ref-code">{String(i + 1).padStart(2, '0')}</span><div><a href={ref.url}>{ref.title}</a><p>{ref.detail}</p></div><span class="ref-kind">{ref.kind}</span></li>)}
 </ol>
+<section class="image-credits" aria-label="Créditos das fotografias"><h3>Fotografias e licença de uso</h3><p>{photos.map((photo, i) => <>{i > 0 && ' · '}<a href={photo.sourceUrl}>{photo.author}: {photo.shortTitle}</a></>)}.</p><p>Imagens gratuitas sob a <a href="https://www.pexels.com/license/">licença Pexels</a>, usadas como ilustração. Diagramas: AHOS ESG.</p></section>

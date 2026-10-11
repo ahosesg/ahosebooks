@@ -30,7 +30,7 @@ Na leitura web o conteúdo se adapta à largura; a prévia A4 mantém a página 
 
 Edite `src/data/design.json` para distribuir as páginas entre Light e Strong. A cor não altera o conteúdo nem a geometria A4. O componente `BookPage.astro` aplica o tema e o CSS utiliza variáveis para fundo, texto, superfícies, tabelas, diagramas e rodapés.
 
-Na revisão 1.0.1, as páginas 3, 6, 8, 10 e 14 usam Strong. A capa, a árvore de decisão, a ficha de diagnóstico e as referências mantêm Light. O preenchimento manual da ficha continua sobre fundo branco.
+Na revisão 1.1.0, a capa e as páginas 3, 6, 8, 10 e 14 usam Strong. A árvore de decisão, a ficha de diagnóstico e as referências mantêm Light. O preenchimento manual da ficha continua sobre fundo branco.
 
 | Paleta | Fundo / superfícies | Texto | Destaque |
 | --- | --- | --- | --- |
@@ -42,3 +42,13 @@ Deep Forest Green `#1F6B4F` permanece a âncora institucional nos dois modos. Ve
 ## Evidências de geração
 
 O workflow produz `content-report.json`, `print-report.json` e `pdf-report.json`. Eles verificam estrutura, dimensões, carregamento de fontes, colisões e links. Essa verificação não substitui a revisão visual ou regulatória. A existência de tags no PDF não equivale a uma auditoria completa de acessibilidade.
+
+## Notas e fotografias
+
+Adicione observações complementares ao campo `notes` no frontmatter da página, com `number`, `text`, `source` e `label`. A chamada no texto usa os IDs `chamada-PAGINA-NUMERO` e `nota-PAGINA-NUMERO`. A numeração reinicia em cada página. Mantenha a regra principal no corpo; notas não devem esconder exceções essenciais para o diagnóstico.
+
+Não exiba as siglas de referências no rodapé corrente. A bibliografia completa permanece na última página. Datas de corte do conteúdo e de atualização editorial aparecem apenas nessa página; a versão pode aparecer na capa.
+
+Para uma fotografia, registre autor, origem, licença, URL de download e hash aprovado em `src/data/images.json`. Use `image` e `imageHeight` no frontmatter para inserir uma faixa; o componente acrescenta a legenda e o crédito. Verifique licença e fotografia, não apenas o resultado de busca. A legenda indica seu uso ilustrativo. Fotos não substituem árvores, fluxos ou tabelas de regras.
+
+Rode `npm run assets` antes do primeiro build. Ele reutiliza arquivos já presentes e verifica os hashes fixados. Versione as fotografias aprovadas junto com o código, preservando os direitos de seus autores. Na capa, confira a leitura de todos os textos sobre a fotografia e a presença do fluxograma.

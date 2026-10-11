@@ -4,8 +4,15 @@ title: Como meu produto chega à União Europeia?
 nav: Exportação direta e indireta
 kicker: Segundo filtro · caminho da operação
 sources: [REG, G1, G2]
+notes:
+  - number: 1
+    text: "O enquadramento depende da mercadoria e da importação. A intermediação comercial não cria, por si só, uma isenção."
+    source: "REG"
+    label: "Regulamento (UE) 2023/956"
+image: porto
+imageHeight: 28
 ---
-<p class="lead">O endereço do comprador não basta. Confirme o destino da importação, a mercadoria que entra na UE e o regime aduaneiro.</p>
+<p class="lead">O endereço do comprador não basta. Confirme o destino da importação, a mercadoria que entra na UE e o regime aduaneiro.<sup class="note-ref"><a id="chamada-6-1" href="#nota-6-1" role="doc-noteref" aria-label="Nota 1">1</a></sup></p>
 
 <div class="route-block">
   <h3>01 · Exportação direta</h3>

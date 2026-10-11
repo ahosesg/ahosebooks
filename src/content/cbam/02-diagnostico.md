@@ -4,10 +4,17 @@ title: O que este diagnóstico vai responder
 nav: O diagnóstico
 kicker: Antes de começar
 sources: [REG, G1, G2]
+notes:
+  - number: 1
+    text: "A obrigação de declarar e entregar certificados é do declarante CBAM autorizado na UE."
+    source: "REG"
+    label: "Regulamento (UE) 2023/956"
+image: terminal
+imageHeight: 24
 ---
 <p class="lead">O CBAM, Mecanismo de Ajustamento Carbônico Fronteiriço, relaciona determinadas importações na União Europeia às emissões incorporadas na produção. Ele se conecta ao sistema europeu de comércio de emissões, o EU ETS.</p>
 
-Analise **um produto, um cliente e uma operação por vez**. A empresa brasileira pode precisar fornecer dados mesmo quando a obrigação de declarar e entregar certificados cabe ao declarante autorizado na UE.
+Analise **um produto, um cliente e uma operação por vez**. A empresa brasileira pode precisar fornecer dados mesmo quando a obrigação de declarar e entregar certificados cabe ao declarante autorizado na UE.<sup class="note-ref"><a id="chamada-2-1" href="#nota-2-1" role="doc-noteref" aria-label="Nota 1">1</a></sup>
 
 <ol class="result-list">
   <li><span class="result-id">R1</span><span><strong>Importação abrangida</strong> e sujeita às obrigações CBAM.</span></li>

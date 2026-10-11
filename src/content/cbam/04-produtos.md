@@ -4,8 +4,15 @@ title: Quais produtos estão abrangidos?
 nav: Produtos e setores
 kicker: Primeiro filtro · mercadoria
 sources: [REG, G2]
+notes:
+  - number: 1
+    text: "Tabela exemplificativa, não exaustiva. Posições de quatro dígitos representam grupos; a classificação concreta normalmente exige CN de oito dígitos."
+    source: "REG"
+    label: "Regulamento (UE) 2023/956, Anexo I"
+image: parafusos
+imageHeight: 24
 ---
-<p class="lead">O ponto de partida é o Anexo I do regulamento. Ele reúne mercadorias selecionadas de seis setores, identificadas por códigos CN e descrições.</p>
+<p class="lead">O ponto de partida é o Anexo I do regulamento. Ele reúne mercadorias selecionadas de seis setores, identificadas por códigos CN e descrições.<sup class="note-ref"><a id="chamada-4-1" href="#nota-4-1" role="doc-noteref" aria-label="Nota 1">1</a></sup></p>
 
 <table class="sector-table">
   <thead><tr><th>Setor</th><th>Exemplo</th><th>CN / posição</th><th>Cuidado na conferência</th></tr></thead>
@@ -18,8 +25,6 @@ sources: [REG, G2]
     <tr><td>Eletricidade</td><td>Energia elétrica</td><td><code>2716 00 00</code></td><td>Sem a isenção de minimis de 50 t.</td></tr>
   </tbody>
 </table>
-
-<p class="small">Tabela exemplificativa, não exaustiva. Posições de quatro dígitos representam grupos; a classificação concreta normalmente exige CN de oito dígitos.</p>
 
 ### O material não determina sozinho o enquadramento
 

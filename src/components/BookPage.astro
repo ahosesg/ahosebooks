@@ -3,19 +3,24 @@ import { render, type CollectionEntry } from 'astro:content';
 import CoverGraphic from './CoverGraphic.astro';
 import DecisionTree from './DecisionTree.astro';
 import ReferenceList from './ReferenceList.astro';
-import references from '../data/references.json';
+import PageNotes from './PageNotes.astro';
+import EditorialImage from './EditorialImage.astro';
+import photos from '../data/images.json';
 import edition from '../data/edition.json';
 import design from '../data/design.json';
 interface Props { entry: CollectionEntry<'cbam'> }
 const { entry } = Astro.props;
 const { Content } = await render(entry);
-const { page, title, kicker, layout, sources } = entry.data;
+const { page, title, kicker, layout, notes, image, imageCaption, imageHeight } = entry.data;
 const pageId = `pagina-${page}`;
 const theme = design.strongPages.includes(page) ? 'strong' : design.defaultTheme;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const coverPhoto = photos.find(photo => photo.id === 'porto');
 ---
 <article class:list={['sheet', `sheet-${layout}`]} id={pageId} data-page={page} data-theme={theme} aria-labelledby={`${pageId}-title`}>
   {layout === 'cover' ? <>
-    <header class="cover-top"><span class="brand">AHOS <span>ESG</span></span><span class="collection-label">CADERNOS AHOS<br/>COMÉRCIO & CLIMA</span></header>
+    <div class="cover-photo" aria-hidden="true"><img src={`${base}/images/${coverPhoto?.file}`} alt="" loading="eager"/><div class="cover-overlay"></div></div>
+    <header class="cover-top"><span class="brand">AHOS <span>ESG</span></span><span class="cover-label">GUIA EDUCATIVO</span></header>
     <div class="cover-copy">
       <p class="eyebrow">CBAM · DIAGNÓSTICO DE ENQUADRAMENTO</p>
       <h1 id={`${pageId}-title`}>Minha empresa<br/>está no <span>CBAM?</span></h1>
@@ -23,14 +28,14 @@ const theme = design.strongPages.includes(page) ? 'strong' : design.defaultTheme
       <div class="cover-callout"><Content/></div>
     </div>
     <div class="cover-art"><CoverGraphic/></div>
-    <footer class="cover-bottom"><span>ATUALIZADO EM<br/><strong>{edition.dateLabel}</strong></span><span>EDIÇÃO 01<br/><strong>Guia para empresas brasileiras</strong></span></footer>
+    <footer class="cover-bottom"><span class="cover-credit">Fotografia de fundo<br/><a href={coverPhoto?.sourceUrl}>{coverPhoto?.author} / Pexels</a></span><span>EDIÇÃO {edition.version}<br/><strong>Guia para empresas brasileiras</strong></span></footer>
   </> : <>
     <header class="page-heading"><p class="eyebrow"><span>{String(page - 1).padStart(2, '0')}</span> {kicker}</p><h2 id={`${pageId}-title`}>{title}</h2></header>
-    <div class="page-content"><Content/>{layout === 'tree' && <DecisionTree/>}{layout === 'references' && <ReferenceList/>}</div>
+    <div class="page-content">{image && <EditorialImage id={image} caption={imageCaption} height={imageHeight}/>}<Content/>{layout === 'tree' && <DecisionTree/>}{layout === 'references' && <ReferenceList/>}</div>
+    {notes.length > 0 && <PageNotes page={page} notes={notes}/>}
     <footer class="page-footer">
       <span class="footer-brand">AHOS ESG</span>
-      <span class="page-sources">Fontes: {sources.map((id, i) => <><a href={references.find(r => r.id === id)?.url || '#pagina-15'}>{id}</a>{i < sources.length - 1 ? ' · ' : ''}</>)}</span>
-      <span class="page-number">{String(page).padStart(2, '0')}<span> / 15</span></span>
+      <span class="page-number">{String(page).padStart(2, '0')}<span> / {edition.pageCount}</span></span>
     </footer>
   </>}
 </article>

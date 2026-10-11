@@ -4,8 +4,17 @@ title: Como funciona a regra de minimis?
 nav: O limite de 50 toneladas
 kicker: Massa líquida · importador · ano
 sources: [REG, ALT, G1, AT1]
+notes:
+  - number: 1
+    text: "O antigo critério de € 150 por remessa foi substituído como regra geral de minimis."
+    source: "ALT"
+    label: "Regulamento (UE) 2025/2083"
+  - number: 2
+    text: "A avaliação da Comissão de 30/09/2026 mantém a referência de 50 t. Revise o limite em futuras edições."
+    source: "AT1"
+    label: "Comissão Europeia: avaliação de minimis"
 ---
-<div class="threshold"><span class="threshold-value">50 <small>t</small></span><p><strong>Até 50 toneladas, inclusive.</strong>Limite de massa líquida de mercadorias por importador e ano-calendário.</p></div>
+<div class="threshold"><span class="threshold-value">50 <small>t</small></span><p><strong>Até 50 toneladas, inclusive.</strong>Limite de massa líquida de mercadorias por importador e ano-calendário.<sup class="note-ref"><a id="chamada-10-1" href="#nota-10-1" role="doc-noteref" aria-label="Nota 1">1</a></sup></p></div>
 
 Some as mercadorias abrangidas de **cimento, ferro e aço, alumínio e fertilizantes**, entre códigos CN e fornecedores do mesmo importador. Não são toneladas de CO₂, faturamento, limite por embarque ou por exportador.
 
@@ -24,4 +33,4 @@ Some as mercadorias abrangidas de **cimento, ferro e aço, alumínio e fertiliza
 
 Confirmação do agregado anual, responsável pelo acompanhamento e tratamento da isenção na declaração aduaneira. Suas vendas isoladas não mostram o volume que ele compra de outros fornecedores.
 
-<div class="note"><p><strong>O antigo critério de € 150 por remessa foi substituído como regra geral de minimis.</strong> A avaliação da Comissão de 30/09/2026 mantém a referência de 50 t. Revise o limite em futuras edições.</p></div>
+<p class="small">Acompanhe as avaliações periódicas da Comissão antes de reutilizar este limite em outra edição.<sup class="note-ref"><a id="chamada-10-2" href="#nota-10-2" role="doc-noteref" aria-label="Nota 2">2</a></sup></p>

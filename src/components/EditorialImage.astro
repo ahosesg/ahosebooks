@@ -1,0 +1,12 @@
+---
+import photos from '../data/images.json';
+interface Props { id: string; caption?: string; height?: number }
+const { id, caption, height = 28 } = Astro.props;
+const photo = photos.find(item => item.id === id);
+if (!photo) throw new Error(`Fotografia editorial desconhecida: ${id}`);
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+<figure class="editorial-image" style={`--photo-height:${height}mm`}>
+  <img src={`${base}/images/${photo.file}`} alt={photo.alt} loading="eager" style={`object-position:${photo.position}`}/>
+  <figcaption><span>{caption || photo.caption} <span class="illustrative-label">Imagem ilustrativa.</span></span><a class="photo-credit" href={photo.sourceUrl}>Foto: {photo.author} / Pexels</a></figcaption>
+</figure>

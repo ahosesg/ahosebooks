@@ -21,6 +21,8 @@ jobs:
           node-version: '24'
           cache: npm
       - run: npm ci
+      - name: Prepare licensed photographs
+        run: npm run assets
       - name: Build and check content
         run: npm run build
       - name: Install Chromium for PDF export
@@ -40,5 +42,7 @@ jobs:
             public/downloads/*.pdf
             dist/
             output/*.json
+            output/review-*/
+            public/images/
           retention-days: 90
           if-no-files-found: warn

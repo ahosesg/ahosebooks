@@ -4,6 +4,11 @@ title: Do diagnóstico ao próximo passo
 nav: Ações e perguntas ao cliente
 kicker: Responsável e prazo definidos
 sources: [REG, G1, G2]
+notes:
+  - number: 1
+    text: "O registro de operadores de instalações fora da UE no portal O3CI é voluntário e recomendado pelo guia. Pode apoiar a troca de informações; não substitui a classificação nem as obrigações do declarante."
+    source: "G2"
+    label: "Comissão Europeia: guia para operadores fora da UE"
 ---
 <p class="lead">Transforme o resultado em uma ação verificável. Comércio exterior e sustentabilidade devem trabalhar com produção, cliente e assessoria aduaneira.</p>
 
@@ -27,4 +32,4 @@ sources: [REG, G1, G2]
   <li>Quais dados, método, formato e prazo precisam ser atendidos pelo produtor e seus fornecedores?</li>
 </ol>
 
-<div class="note"><span class="note-label">Compartilhamento de dados · O3CI</span><p>O registro de operadores de instalações fora da UE no portal O3CI é voluntário e recomendado pelo G2. Pode apoiar a troca de informações; não substitui a classificação nem as obrigações do declarante.</p></div>
+<p class="small">Para organizar o compartilhamento de dados, avalie o portal O3CI.<sup class="note-ref"><a id="chamada-14-1" href="#nota-14-1" role="doc-noteref" aria-label="Nota 1">1</a></sup></p>

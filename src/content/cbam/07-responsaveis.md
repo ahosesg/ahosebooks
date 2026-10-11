@@ -4,8 +4,13 @@ title: Quem responde por cada informação?
 nav: Clientes, traders e responsáveis
 kicker: Atores da cadeia
 sources: [REG, G1, G2]
+notes:
+  - number: 1
+    text: "Pedidos comerciais podem exigir informações adicionais. Registre separadamente o fundamento regulatório e o que foi acordado com o cliente."
+    source: "G2"
+    label: "Comissão Europeia: guia para operadores fora da UE"
 ---
-<p class="lead">A obrigação legal na UE e a produção de dados fora da UE são responsabilidades diferentes. Identifique as entidades envolvidas e combine a troca de informações.</p>
+<p class="lead">A obrigação legal na UE e a produção de dados fora da UE são responsabilidades diferentes. Identifique as entidades envolvidas e combine a troca de informações.<sup class="note-ref"><a id="chamada-7-1" href="#nota-7-1" role="doc-noteref" aria-label="Nota 1">1</a></sup></p>
 
 <table class="responsibility-table">
   <thead><tr><th>Ator</th><th>Papel na operação</th><th>Informação a confirmar</th></tr></thead>
@@ -23,5 +28,3 @@ sources: [REG, G1, G2]
 Solicite a razão social do importador, seu identificador **EORI** (registro aduaneiro europeu), a entidade responsável pelo CBAM e o contato operacional. Um distribuidor, cliente ou agente comercial pode ter papel diferente do importador.
 
 <div class="insight"><p><strong>Incoterm sozinho não resolve a atribuição.</strong> Confirme a estrutura da importação e da representação aduaneira. Não presuma que o cliente que paga a fatura seja o declarante CBAM.</p></div>
-
-<p class="small">Pedidos comerciais podem exigir informações adicionais. Registre separadamente o fundamento regulatório e o que foi acordado com o cliente.</p>

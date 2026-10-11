@@ -4,6 +4,11 @@ title: Quais exceções precisam ser verificadas?
 nav: Exceções e regimes aduaneiros
 kicker: Terceiro filtro · fundamento legal
 sources: [REG, G1]
+notes:
+  - number: 1
+    text: "A aplicação depende do regime e de suas condições; aperfeiçoamento ativo não deve ser tratado como isenção automática."
+    source: "REG"
+    label: "Regulamento (UE) 2023/956, artigo 2"
 ---
 <p class="lead">Exceções precisam de fundamento e evidências. O país de embarque, por exemplo, não comprova a origem da mercadoria.</p>
 
@@ -22,6 +27,6 @@ sources: [REG, G1]
 
 ### Atenção ao aperfeiçoamento ativo na UE
 
-Se o produto processado é introduzido em livre prática, pode haver CBAM sobre os bens originalmente abrangidos, mesmo com CN final fora do Anexo I. Reexportação requer análise das condições do regime.
+Se o produto processado é introduzido em livre prática, pode haver CBAM sobre os bens originalmente abrangidos, mesmo com CN final fora do Anexo I. Reexportação requer análise das condições do regime.<sup class="note-ref"><a id="chamada-9-1" href="#nota-9-1" role="doc-noteref" aria-label="Nota 1">1</a></sup>
 
 <p class="small"><strong>Ser PME, ter baixas emissões, vender por trader ou contar com acordo comercial não cria uma isenção geral.</strong></p>

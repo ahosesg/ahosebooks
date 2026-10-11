@@ -1,0 +1,14 @@
+---
+import references from '../data/references.json';
+interface Note { number: number; text: string; source?: string; label?: string }
+interface Props { page: number; notes: Note[] }
+const { page, notes } = Astro.props;
+---
+<aside class="page-notes" aria-label={`Notas de rodapé da página ${page}`}>
+  <ol>
+    {notes.map(note => {
+      const source = references.find(ref => ref.id === note.source);
+      return <li id={`nota-${page}-${note.number}`}><a class="note-number" href={`#chamada-${page}-${note.number}`} aria-label={`Voltar à chamada da nota ${note.number}`}>{note.number}</a><div>{note.text}{source && <> <a href={source.url}>{note.label || source.title}</a>.</>}</div></li>;
+    })}
+  </ol>
+</aside>

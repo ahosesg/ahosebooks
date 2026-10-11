@@ -2,6 +2,7 @@ import { readdir, readFile, mkdir, writeFile } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import edition from '../src/data/edition.json' with { type: 'json' };
 import references from '../src/data/references.json' with { type: 'json' };
+import photos from '../src/data/images.json' with { type: 'json' };
 
 const dir = new URL('../src/content/cbam/', import.meta.url);
 const files = (await readdir(dir)).filter(file => file.endsWith('.md')).sort();
@@ -18,10 +19,19 @@ for (const file of files) {
   const ids = (frontmatter.match(/^sources: \[(.*?)\]$/m)?.[1] || '').split(',').map(x => x.trim()).filter(Boolean);
   if (!title) errors.push(`${file}: título ausente`);
   ids.forEach(id => { if (!sources.has(id)) errors.push(`${file}: fonte desconhecida ${id}`); });
+  const notes = [...frontmatter.matchAll(/^  - number: (\d+)$/gm)].map(match => Number(match[1]));
+  const calls = [...content.matchAll(/id="chamada-(\d+)-(\d+)" href="#nota-(\d+)-(\d+)"/g)];
+  for (const number of notes) {
+    if (calls.filter(call => Number(call[1]) === page && Number(call[2]) === number && Number(call[3]) === page && Number(call[4]) === number).length !== 1) errors.push(`${file}: chamada da nota ${number} ausente ou repetida`);
+  }
+  if (new Set(notes).size !== notes.length || calls.length !== notes.length) errors.push(`${file}: notas inconsistentes`);
+  for (const match of frontmatter.matchAll(/^    source: "([^"]+)"$/gm)) if (!sources.has(match[1])) errors.push(`${file}: fonte de nota desconhecida ${match[1]}`);
+  const photoId = frontmatter.match(/^image: (.+)$/m)?.[1];
+  if (photoId && !photos.some(photo => photo.id === photoId)) errors.push(`${file}: fotografia desconhecida ${photoId}`);
   const plain = content.replace(/^---\n[\s\S]*?\n---/, '').replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim();
   if (page !== 11 && plain.length < 30) errors.push(`${file}: conteúdo vazio`);
   if (/\b(TODO|LOREM IPSUM|TBD)\b/.test(content)) errors.push(`${file}: texto provisório`);
-  pages.push({ page, file, title, words: plain ? plain.split(' ').length : 0, sources: ids });
+  pages.push({ page, file, title, words: plain ? plain.split(' ').length : 0, sources: ids, notes: notes.length, image: photoId || null });
   allContent += content;
 }
 if (pages.length !== edition.pageCount) errors.push(`Esperadas ${edition.pageCount} páginas, encontradas ${pages.length}`);
