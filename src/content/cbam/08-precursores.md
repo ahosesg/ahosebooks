@@ -10,7 +10,7 @@ notes:
     source: "G2"
     label: "Comissão Europeia: guia para operadores fora da UE"
 image: cimento
-imageHeight: 30
+imageHeight: 28
 ---
 <p class="lead">Sim. Um produtor brasileiro pode fornecer um precursor a outra indústria, que produz uma mercadoria abrangida e a exporta para a UE.</p>
 

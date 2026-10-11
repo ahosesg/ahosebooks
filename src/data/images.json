@@ -11,7 +11,8 @@
     "checkedOn": "2026-10-11",
     "alt": "Vista aérea de navio e contêineres em um terminal portuário.",
     "caption": "A operação conecta produto, logística e destino aduaneiro.",
-    "position": "50% 50%"
+    "position": "50% 50%",
+    "sha256": "dfd864f37ea4d3731694193ed83178c373e5549a57b4bc63047d1b0ee3df0bd5"
   },
   {
     "id": "terminal",
@@ -25,7 +26,8 @@
     "checkedOn": "2026-10-11",
     "alt": "Contêineres empilhados e guindastes de um terminal portuário.",
     "caption": "O destino e o importador precisam estar identificados.",
-    "position": "50% 65%"
+    "position": "50% 65%",
+    "sha256": "7c4b04afc41fd365cd5052d893ad5cc43bf69faddc287fd1360329a50975083d"
   },
   {
     "id": "parafusos",
@@ -39,7 +41,8 @@
     "checkedOn": "2026-10-11",
     "alt": "Parafusos metálicos sobre uma superfície verde.",
     "caption": "O código e a descrição definem o enquadramento.",
-    "position": "50% 50%"
+    "position": "50% 50%",
+    "sha256": "df5a887488ecd8ef2b45a0dc837873dc488598c0cf11892c7dc9af9366d2a2de"
   },
   {
     "id": "cimento",
@@ -53,6 +56,7 @@
     "checkedOn": "2026-10-11",
     "alt": "Estruturas, silos e equipamentos de uma instalação da indústria de cimento.",
     "caption": "Os dados podem começar em um fornecedor de precursor.",
-    "position": "50% 50%"
+    "position": "50% 50%",
+    "sha256": "08a8b471809ed1587858ec8dd55fc71f67237210d3ac2487a1f150caea22c846"
   }
 ]

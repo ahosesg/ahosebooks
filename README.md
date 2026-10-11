@@ -46,7 +46,7 @@ O segundo build inclui o novo PDF em `dist/`. O exportador usa o mesmo HTML, CSS
 
 ## GitHub Actions e publicação
 
-O workflow **Book · build and PDF** verifica e compila o livro em cada alteração de conteúdo ou código na `main`, e nas pull requests. O artefato `ahos-cbam-ebook` contém PDF, site estático e relatórios, com retenção de 90 dias. O PDF aprovado também fica versionado no repositório.
+O workflow **Book · build and PDF** verifica e compila o livro em cada alteração de conteúdo ou código na `main`, e nas pull requests. O artefato `ahos-cbam-ebook` contém PDF, site estático e relatórios, com retenção de 90 dias. Após a exportação passar, o workflow versiona o PDF e as fotografias na `main`, sem publicar o site. Alterações somente nesses arquivos não iniciam outra geração. A aprovação visual continua necessária para a entrega.
 
 Para publicar: ative **Settings → Pages → Source: GitHub Actions** e execute **Publish · GitHub Pages** na aba Actions. O endereço previsto pela configuração é `https://ahosesg.github.io/ahosebooks/`; sua disponibilidade depende da ativação e de uma execução bem-sucedida. O workflow é manual para permitir conferir cada edição antes da publicação.
 

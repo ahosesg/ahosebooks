@@ -4,6 +4,9 @@ title: Quatro casos para testar o raciocínio
 nav: Casos práticos
 kicker: Exemplos hipotéticos
 sources: [REG, G1, G2, AT2]
+image: parafusos
+imageHeight: 24
+imageCaption: "Parafusos ilustram um dos casos analisados nesta página."
 ---
 <p class="lead">Os cenários abaixo ilustram o método. A conclusão real depende de classificação, origem, regime e informações do importador.</p>
 

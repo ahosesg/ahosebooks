@@ -3,12 +3,12 @@ name: Book · build and PDF
 on:
   push:
     branches: [main]
-    paths-ignore: ['public/downloads/**', 'docs/**', 'README.md']
+    paths-ignore: ['public/downloads/**', 'public/images/**', 'docs/**', 'README.md']
   pull_request:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   build:
@@ -33,6 +33,15 @@ jobs:
           npm run verify:pdf
       - name: Include the generated PDF in the website
         run: npm run build
+      - name: Version generated PDF and licensed photographs
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- public/images public/downloads
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "assets: version verified CBAM PDF and licensed photographs"
+          git push origin HEAD:main
       - name: Preserve ebook, site and validation reports
         if: always()
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2

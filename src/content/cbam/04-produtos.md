@@ -9,8 +9,6 @@ notes:
     text: "Tabela exemplificativa, não exaustiva. Posições de quatro dígitos representam grupos; a classificação concreta normalmente exige CN de oito dígitos."
     source: "REG"
     label: "Regulamento (UE) 2023/956, Anexo I"
-image: parafusos
-imageHeight: 24
 ---
 <p class="lead">O ponto de partida é o Anexo I do regulamento. Ele reúne mercadorias selecionadas de seis setores, identificadas por códigos CN e descrições.<sup class="note-ref"><a id="chamada-4-1" href="#nota-4-1" role="doc-noteref" aria-label="Nota 1">1</a></sup></p>
 
