@@ -1,0 +1,279 @@
+{
+  "edition": {
+    "title": "Minha empresa está no CBAM?",
+    "subtitle": "Um diagnóstico prático de produtos, códigos CN e exposição na cadeia de exportação",
+    "version": "1.1.0",
+    "date": "2026-10-08",
+    "dateLabel": "8 de outubro de 2026",
+    "pageCount": 15,
+    "layoutUpdated": "2026-10-11",
+    "pdfFile": "minha-empresa-esta-no-cbam-v1.1.0.pdf"
+  },
+  "browser": "156.0.8078.4",
+  "pages": [
+    {
+      "page": 1,
+      "theme": "strong",
+      "background": "rgb(15, 23, 19)",
+      "foreground": "rgb(244, 245, 242)",
+      "width": 793.6875,
+      "height": 1122.515625,
+      "overflowY": 0,
+      "overflowX": 0,
+      "collision": 0,
+      "remainingSpace": 0,
+      "notes": 0,
+      "images": 1
+    },
+    {
+      "page": 2,
+      "theme": "light",
+      "background": "rgb(255, 255, 255)",
+      "foreground": "rgb(26, 31, 29)",
+      "width": 793.6875,
+      "height": 1122.515625,
+      "overflowY": 0,
+      "overflowX": 0,
+      "collision": 0,
+      "remainingSpace": 12.03125,
+      "notes": 1,
+      "images": 1
+    },
+    {
+      "page": 3,
+      "theme": "strong",
+      "background": "rgb(15, 23, 19)",
+      "foreground": "rgb(244, 245, 242)",
+      "width": 793.6875,
+      "height": 1122.515625,
+      "overflowY": 0,
+      "overflowX": 0,
+      "collision": 0,
+      "remainingSpace": 44.546875,
+      "notes": 2,
+      "images": 0
+    },
+    {
+      "page": 4,
+      "theme": "light",
+      "background": "rgb(255, 255, 255)",
+      "foreground": "rgb(26, 31, 29)",
+      "width": 793.6875,
+      "height": 1122.515625,
+      "overflowY": 0,
+      "overflowX": 0,
+      "collision": 0,
+      "remainingSpace": 67.15625,
+      "notes": 1,
+      "images": 0
+    },
+    {
+      "page": 5,
+      "theme": "light",
+      "background": "rgb(255, 255, 255)",
+      "foreground": "rgb(26, 31, 29)",
+      "width": 793.6875,
+      "height": 1122.515625,
+      "overflowY": 0,
+      "overflowX": 0,
+      "collision": 0,
+      "remainingSpace": 14.453125,
+      "notes": 1,
+      "images": 0
+    },
+    {
+      "page": 6,
+      "theme": "strong",
+      "background": "rgb(15, 23, 19)",
+      "foreground": "rgb(244, 245, 242)",
+      "width": 793.6875,
+      "height": 1122.515625,
+      "overflowY": 0,
+      "overflowX": 0,
+      "collision": 0,
+      "remainingSpace": 19.859375,
+      "notes": 1,
+      "images": 1
+    },
+    {
+      "page": 7,
+      "theme": "light",
+      "background": "rgb(255, 255, 255)",
+      "foreground": "rgb(26, 31, 29)",
+      "width": 793.6875,
+      "height": 1122.515625,
+      "overflowY": 0,
+      "overflowX": 0,
+      "collision": 0,
+      "remainingSpace": 47.78125,
+      "notes": 1,
+      "images": 0
+    },
+    {
+      "page": 8,
+      "theme": "strong",
+      "background": "rgb(15, 23, 19)",
+      "foreground": "rgb(244, 245, 242)",
+      "width": 793.6875,
+      "height": 1122.515625,
+      "overflowY": 1,
+      "overflowX": 0,
+      "collision": 0,
+      "remainingSpace": -0.5625,
+      "notes": 1,
+      "images": 1
+    },
+    {
+      "page": 9,
+      "theme": "light",
+      "background": "rgb(255, 255, 255)",
+      "foreground": "rgb(26, 31, 29)",
+      "width": 793.6875,
+      "height": 1122.515625,
+      "overflowY": 0,
+      "overflowX": 0,
+      "collision": 0,
+      "remainingSpace": 1.96875,
+      "notes": 1,
+      "images": 0
+    },
+    {
+      "page": 10,
+      "theme": "strong",
+      "background": "rgb(15, 23, 19)",
+      "foreground": "rgb(244, 245, 242)",
+      "width": 793.6875,
+      "height": 1122.515625,
+      "overflowY": 0,
+      "overflowX": 0,
+      "collision": 0,
+      "remainingSpace": 38.390625,
+      "notes": 2,
+      "images": 0
+    },
+    {
+      "page": 11,
+      "theme": "light",
+      "background": "rgb(255, 255, 255)",
+      "foreground": "rgb(26, 31, 29)",
+      "width": 793.6875,
+      "height": 1122.515625,
+      "overflowY": 0,
+      "overflowX": 0,
+      "collision": 0,
+      "remainingSpace": 73.578125,
+      "notes": 0,
+      "images": 0
+    },
+    {
+      "page": 12,
+      "theme": "light",
+      "background": "rgb(255, 255, 255)",
+      "foreground": "rgb(26, 31, 29)",
+      "width": 793.6875,
+      "height": 1122.515625,
+      "overflowY": 0,
+      "overflowX": 0,
+      "collision": 0,
+      "remainingSpace": 34.6875,
+      "notes": 0,
+      "images": 1
+    },
+    {
+      "page": 13,
+      "theme": "light",
+      "background": "rgb(255, 255, 255)",
+      "foreground": "rgb(26, 31, 29)",
+      "width": 793.6875,
+      "height": 1122.515625,
+      "overflowY": 0,
+      "overflowX": 0,
+      "collision": 0,
+      "remainingSpace": 14.796875,
+      "notes": 0,
+      "images": 0
+    },
+    {
+      "page": 14,
+      "theme": "strong",
+      "background": "rgb(15, 23, 19)",
+      "foreground": "rgb(244, 245, 242)",
+      "width": 793.6875,
+      "height": 1122.515625,
+      "overflowY": 0,
+      "overflowX": 0,
+      "collision": 0,
+      "remainingSpace": 117.40625,
+      "notes": 1,
+      "images": 0
+    },
+    {
+      "page": 15,
+      "theme": "light",
+      "background": "rgb(255, 255, 255)",
+      "foreground": "rgb(26, 31, 29)",
+      "width": 793.6875,
+      "height": 1122.515625,
+      "overflowY": 0,
+      "overflowX": 0,
+      "collision": 0,
+      "remainingSpace": 200.359375,
+      "notes": 0,
+      "images": 0
+    }
+  ],
+  "images": [
+    {
+      "src": "/ahosebooks/images/porto-k-17311127.jpg",
+      "width": 2200,
+      "height": 1647,
+      "loaded": true
+    },
+    {
+      "src": "/ahosebooks/images/terminal-erik-mclean-12442888.jpg",
+      "width": 1800,
+      "height": 2700,
+      "loaded": true
+    },
+    {
+      "src": "/ahosebooks/images/porto-k-17311127.jpg",
+      "width": 2200,
+      "height": 1647,
+      "loaded": true
+    },
+    {
+      "src": "/ahosebooks/images/cimento-robert-so-18468425.jpg",
+      "width": 1800,
+      "height": 1252,
+      "loaded": true
+    },
+    {
+      "src": "/ahosebooks/images/parafusos-nic-wood-28119515.jpg",
+      "width": 1800,
+      "height": 1200,
+      "loaded": true
+    }
+  ],
+  "brokenNoteLinks": [],
+  "forbiddenCoverText": false,
+  "obsoleteFooter": false,
+  "fonts": [
+    {
+      "font": "400 16px Inter",
+      "loaded": true
+    },
+    {
+      "font": "600 16px Inter",
+      "loaded": true
+    },
+    {
+      "font": "600 16px Montserrat",
+      "loaded": true
+    },
+    {
+      "font": "700 16px Montserrat",
+      "loaded": true
+    }
+  ],
+  "failures": []
+}

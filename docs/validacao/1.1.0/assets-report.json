@@ -1,0 +1,42 @@
+[
+  {
+    "id": "porto",
+    "file": "porto-k-17311127.jpg",
+    "bytes": 1038610,
+    "sha256": "dfd864f37ea4d3731694193ed83178c373e5549a57b4bc63047d1b0ee3df0bd5",
+    "sourceUrl": "https://www.pexels.com/photo/drone-shot-of-a-container-ship-in-the-port-17311127/",
+    "author": "K",
+    "license": "Pexels License",
+    "downloaded": false
+  },
+  {
+    "id": "terminal",
+    "file": "terminal-erik-mclean-12442888.jpg",
+    "bytes": 576149,
+    "sha256": "7c4b04afc41fd365cd5052d893ad5cc43bf69faddc287fd1360329a50975083d",
+    "sourceUrl": "https://www.pexels.com/photo/stacks-of-cargo-containers-in-a-port-12442888/",
+    "author": "Erik Mclean",
+    "license": "Pexels License",
+    "downloaded": false
+  },
+  {
+    "id": "parafusos",
+    "file": "parafusos-nic-wood-28119515.jpg",
+    "bytes": 268031,
+    "sha256": "df5a887488ecd8ef2b45a0dc837873dc488598c0cf11892c7dc9af9366d2a2de",
+    "sourceUrl": "https://www.pexels.com/photo/nuts-and-bolts-28119515/",
+    "author": "Nic Wood",
+    "license": "Pexels License",
+    "downloaded": false
+  },
+  {
+    "id": "cimento",
+    "file": "cimento-robert-so-18468425.jpg",
+    "bytes": 313498,
+    "sha256": "08a8b471809ed1587858ec8dd55fc71f67237210d3ac2487a1f150caea22c846",
+    "sourceUrl": "https://www.pexels.com/photo/industrial-structures-at-a-cement-factory-18468425/",
+    "author": "Robert So",
+    "license": "Pexels License",
+    "downloaded": false
+  }
+]
