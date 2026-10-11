@@ -14,7 +14,7 @@ notes:
 ---
 <div class="boundary-pair">
   <div><h3>Insumo comum</h3><p>Usar um material na produção não o torna automaticamente precursor CBAM.</p></div>
-  <div><h3>Precursor relevante</h3><p>Mercadoria do Anexo I relevante ao processo. Infraestrutura e equipamentos ficam fora dos limites.</p></div>
+  <div><h3>Precursor relevante</h3><p>Bem do Anexo I relevante ao processo. Materiais para construir ou manter a fábrica não são precursores.</p></div>
 </div>
 
 **Produto final, CN, uso, quantidade, instalação e período** ajudam a confirmar o vínculo. Os limites e a consideração de emissões diretas e indiretas seguem a metodologia CBAM.<sup class="note-ref"><a id="chamada-8-1" href="#nota-8-1" role="doc-noteref" aria-label="Nota 1">1</a></sup>
