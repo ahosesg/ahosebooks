@@ -22,4 +22,4 @@ Confirme quem tem autorização para declarar. Seu contato de compras pode não 
 
 Converse com o fabricante. Um total genérico de emissões da sua empresa comercial não descreve a produção da mercadoria. Os dados precisam corresponder à fábrica, ao produto e ao período solicitado segundo as regras aplicáveis.
 
-<div class="insight"><p><strong>Alinhe o pedido antes de preparar os dados.</strong> Confirme a finalidade, o produto, o período e o formato. Quem negocia a venda ou paga o transporte não é, necessariamente, quem declara o CBAM.</p></div>
+<p><strong>Alinhe o pedido antes de preparar os dados.</strong> Confirme a finalidade, o produto, o período e o formato. Quem negocia a venda ou paga o transporte não é, necessariamente, quem declara o CBAM.</p>

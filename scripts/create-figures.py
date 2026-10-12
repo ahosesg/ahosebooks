@@ -10,7 +10,7 @@ DATA = json.loads((ROOT / 'src/data/chart-examples.json').read_text())
 BG, INK, MUTED, GREEN, PALE = '#0F1713', '#F4F5F2', '#C9D7CD', '#3FAE68', '#DDEBDF'
 plt.rcParams.update({'svg.fonttype': 'none', 'font.family': 'DejaVu Sans', 'font.size': 11,
                      'axes.labelcolor': MUTED, 'xtick.color': MUTED, 'ytick.color': INK})
-fig = plt.figure(figsize=(7.2, 3.5), facecolor=BG)
+fig = plt.figure(figsize=(7.2, 3.2), facecolor=BG)
 ax = fig.add_axes([.23, .54, .68, .34], facecolor=BG)
 fig.text(.04, .94, 'A · Quanto um importador comprou no ano', color=INK, weight='bold', fontsize=11)
 for y, item in enumerate(DATA['totals']):
