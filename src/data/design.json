@@ -1,4 +1,11 @@
 {
   "defaultTheme": "light",
-  "strongPages": [1, 3, 6, 8, 10, 14]
+  "strongPages": [
+    1,
+    4,
+    7,
+    9,
+    11,
+    15
+  ]
 }

@@ -1,10 +1,13 @@
 {
   "title": "Minha empresa está no CBAM?",
-  "subtitle": "Um diagnóstico prático de produtos, códigos CN e exposição na cadeia de exportação",
+  "subtitle": "Entenda se as regras europeias de carbono alcançam seu produto e quais informações seu cliente pode solicitar",
   "version": "1.0",
-  "date": "2026-10-11",
-  "dateLabel": "11 de outubro de 2026",
-  "pageCount": 15,
-  "layoutUpdated": "2026-10-11",
-  "pdfFile": "minha-empresa-esta-no-cbam-edicao-1.0.pdf"
+  "date": "2026-10-12",
+  "dateLabel": "12 de outubro de 2026",
+  "pageCount": 16,
+  "layoutUpdated": "2026-10-12",
+  "pdfFile": "minha-empresa-esta-no-cbam-revisao-2026-10-12.pdf",
+  "stage": "review",
+  "sourceEdition": "1.0",
+  "sourceCommit": "9b48c6180a9bb241cde56f2672368bf3d3481ac6"
 }

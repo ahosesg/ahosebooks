@@ -12,7 +12,7 @@ plt.rcParams.update({'svg.fonttype': 'none', 'font.family': 'DejaVu Sans', 'font
                      'axes.labelcolor': MUTED, 'xtick.color': MUTED, 'ytick.color': INK})
 fig = plt.figure(figsize=(7.2, 3.5), facecolor=BG)
 ax = fig.add_axes([.23, .54, .68, .34], facecolor=BG)
-fig.text(.04, .94, 'A · Cenários alternativos de total anual', color=INK, weight='bold', fontsize=11)
+fig.text(.04, .94, 'A · Quanto um importador comprou no ano', color=INK, weight='bold', fontsize=11)
 for y, item in enumerate(DATA['totals']):
     total = sum(item['parts'])
     left = 0
@@ -29,9 +29,9 @@ ax.set_xlim(0, 63)
 ax.set_xticks([0, 25, 50])
 ax.tick_params(axis='y', length=0, pad=8, labelsize=10)
 ax.tick_params(axis='x', length=0, pad=4, labelsize=9)
-ax.set_xlabel('Massa líquida anual (t)', fontsize=9, labelpad=2)
+ax.set_xlabel('Produtos importados no ano (t)', fontsize=9, labelpad=2)
 for spine in ax.spines.values(): spine.set_visible(False)
-fig.text(.04, .40, 'B · Exemplo de acúmulo no ano', color=INK, weight='bold', fontsize=11)
+fig.text(.04, .40, 'B · Somando as compras ao longo do ano', color=INK, weight='bold', fontsize=11)
 ax2 = fig.add_axes([.23, .115, .68, .20], facecolor=BG)
 points=DATA['cumulative']
 ax2.axhline(DATA['thresholdTonnes'], color=PALE, linestyle=(0, (4, 3)), linewidth=1.2)

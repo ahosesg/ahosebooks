@@ -1,9 +1,9 @@
 ---
 page: 1
-title: Minha empresa está no CBAM?
-nav: Capa
-kicker: Diagnóstico de enquadramento
+title: "Minha empresa está no CBAM?"
+nav: "Capa"
+kicker: "Guia para quem exporta"
 layout: cover
 sources: []
 ---
-Descubra se seus produtos e sua cadeia de exportação estão abrangidos pelas regras europeias.
+Saiba por onde começar, o que conferir no seu produto e quais perguntas fazer ao cliente.

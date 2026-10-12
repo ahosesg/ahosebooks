@@ -58,3 +58,11 @@ Strong permanece na capa e nas páginas 3, 6, 8, 10 e 14. O restante usa Light. 
 A publicação continua manual: **Settings → Pages → Source: GitHub Actions**, seguido de **Publish · GitHub Pages**. O endereço configurado é `https://ahosesg.github.io/ahosebooks/`; sua disponibilidade depende da ativação e de uma execução bem-sucedida. Esta revisão não executa a publicação.
 
 **A edição permanece 1.0 durante a preparação para a primeira publicação.** Identificadores anteriores 1.0.0, 1.0.1 e 1.1.0 registraram revisões internas, sem representar edições publicadas. O histórico do Git preserva essas etapas. Código e textos não recebem uma licença de reutilização por esta entrega; fotografia e fontes mantêm suas licenças próprias.
+
+## Revisão de linguagem de 12/10/2026
+
+Esta branch contém uma revisão para exportadores iniciantes, com 16 páginas e termos explicados no contexto. O conteúdo aguarda validação do usuário. A edição publicada e o site AHOS ESG permanecem com os arquivos já aprovados.
+
+`src/data/edition.json` identifica esta etapa como `review` e usa um nome de PDF separado. A compilação não substitui o PDF genérico da publicação. O workflow `review-exporter.yml` gera o arquivo e as evidências de diagramação sem publicar o site nem escrever em main.
+
+Consulte `docs/REVISAO_LINGUAGEM_EXPORTADOR_2026-10-12.md` antes de incorporar esta revisão ao site.

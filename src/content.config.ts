@@ -1,10 +1,11 @@
 import { defineCollection, z } from 'astro:content';
 import { glob } from 'astro/loaders';
+import edition from './data/edition.json';
 
 const cbam = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/cbam' }),
   schema: z.object({
-    page: z.number().int().min(1).max(15),
+    page: z.number().int().min(1).max(edition.pageCount),
     title: z.string(),
     nav: z.string(),
     kicker: z.string(),

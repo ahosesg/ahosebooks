@@ -24,7 +24,7 @@ const server = createServer(async (req, res) => {
 await new Promise(done => server.listen(0, '127.0.0.1', done));
 let browser;
 try {
-  browser = await chromium.launch({ headless: true });
+  browser = await chromium.launch({ headless: true, ...(process.env.EBOOK_CHROME_PATH ? { executablePath: process.env.EBOOK_CHROME_PATH } : {}) });
   const page = await browser.newPage({ viewport: { width: 1280, height: 1000 }, locale: 'pt-BR' });
   const failures = [];
   page.on('pageerror', error => failures.push(error.message));
@@ -90,8 +90,8 @@ try {
   await mkdir(resolve('public/downloads'), { recursive: true });
   const finalBytes = await pdf.save();
   await writeFile(target, finalBytes);
-  // Retain the original download URL while offering a clearly versioned file.
-  await writeFile(resolve('public/downloads/minha-empresa-esta-no-cbam.pdf'), finalBytes);
+  // A revisão gera um arquivo separado, sem substituir o PDF publicado.
+  if (edition.stage !== 'review') await writeFile(resolve('public/downloads/minha-empresa-esta-no-cbam.pdf'), finalBytes);
   console.log(`PDF gerado: ${target} (${pdf.getPageCount()} páginas).`);
 } finally {
   await browser?.close();

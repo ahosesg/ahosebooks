@@ -1,32 +1,29 @@
 ---
 page: 2
-title: O que este diagnóstico vai responder
-nav: O diagnóstico
-kicker: Antes de começar
+title: "Como o CBAM pode afetar sua venda"
+nav: "O que muda para o exportador"
+kicker: "Comece pela sua dúvida"
 sources: [REG, G1, G2]
 notes:
   - number: 1
-    text: "A sequência de análise e as categorias R1 a R5 são uma organização didática da AHOS ESG; não são categorias ou formulário oficiais do CBAM. Um resultado não se estende automaticamente a todos os produtos ou clientes."
+    text: "O roteiro deste e-book é educativo. A conclusão depende do produto e das condições de cada importação; não vale automaticamente para todas as vendas da empresa."
 ---
-<p class="lead">O CBAM, Mecanismo de Ajustamento Carbônico Fronteiriço, relaciona determinadas importações na União Europeia às emissões incorporadas na produção. Ele se conecta ao sistema europeu de comércio de emissões, o EU ETS.</p>
+<p class="lead">O CBAM é uma regra da União Europeia (UE) que relaciona a importação de determinados produtos às emissões de gases de efeito estufa de sua produção, como o dióxido de carbono (CO₂).</p>
 
-O diagnóstico proposto analisa **um produto, um cliente e uma operação por vez**.<sup class="note-ref"><a id="chamada-2-1" href="#nota-2-1" role="doc-noteref" aria-label="Nota 1">1</a></sup> A empresa brasileira pode precisar fornecer dados mesmo quando a obrigação de declarar e entregar certificados cabe ao declarante autorizado na UE.
+A sigla vem do inglês e significa **Mecanismo de Ajustamento Carbônico Fronteiriço**. Sua lógica é aproximar o custo do carbono de produtos importados daquele aplicado à produção dentro da UE.
 
-<p class="small">Os resultados abaixo organizam a leitura desta edição:</p>
+### Quem assume a obrigação na Europa?
+
+O responsável autorizado na UE pode ser o importador ou seu representante na alfândega. É ele quem apresenta a declaração e entrega os certificados CBAM, instrumentos usados para cumprir a parte financeira da regra. **Exportar do Brasil não torna sua empresa automaticamente responsável por essa declaração.**
+
+Mesmo assim, seu cliente pode pedir informações sobre como o produto foi fabricado e suas emissões. Se você apenas revende a mercadoria, esses dados precisam ser buscados com o fabricante.
+
+### Sua empresa pode participar de três formas
 
 <ol class="result-list">
-  <li><span class="result-id">R1</span><span><strong>Importação abrangida</strong> e sujeita às obrigações CBAM.</span></li>
-  <li><span class="result-id">R2</span><span><strong>Fornecedor de precursor</strong> em uma cadeia que chega à UE.</span></li>
-  <li><span class="result-id">R3</span><span><strong>Hipótese de isenção fundamentada</strong>, enquanto atendidas as condições, com evidências e acompanhamento.</span></li>
-  <li><span class="result-id">R4</span><span><strong>Sem enquadramento direto identificado</strong> no escopo atual.</span></li>
-  <li><span class="result-id">R5</span><span><strong>Diagnóstico inconclusivo</strong>: faltam informações essenciais.</span></li>
+  <li><span class="result-id">01</span><span><strong>Você exporta para a UE.</strong> O produto e as condições da importação precisam ser conferidos.</span></li>
+  <li><span class="result-id">02</span><span><strong>Você vende a uma intermediária.</strong> Ela pode revender seu produto a um importador na UE.</span></li>
+  <li><span class="result-id">03</span><span><strong>Você fornece a outra fábrica.</strong> Seu produto pode ser usado para fabricar uma mercadoria que será exportada à UE.</span></li>
 </ol>
 
-### Quatro termos que você vai encontrar
-
-<dl class="glossary">
-  <div><dt>CN</dt><dd>Nomenclatura Combinada: classificação aduaneira utilizada pela UE.</dd></div>
-  <div><dt>Precursor</dt><dd>Mercadoria relevante para as emissões de outro bem CBAM, conforme as regras do processo.</dd></div>
-  <div><dt>Emissões incorporadas</dt><dd>Emissões atribuídas à produção segundo os limites e métodos do CBAM.</dd></div>
-  <div><dt>Declarante autorizado</dt><dd>Entidade autorizada a cumprir as obrigações CBAM da importação.</dd></div>
-</dl>
+<div class="insight"><p><strong>Comece com uma venda concreta:</strong> um produto, um cliente e um caminho até o destino. Primeiro entenda se as regras se aplicam; depois discuta os dados necessários.<sup class="note-ref"><a id="chamada-2-1" href="#nota-2-1" role="doc-noteref" aria-label="Nota 1">1</a></sup></p></div>

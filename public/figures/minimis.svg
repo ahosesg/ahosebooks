@@ -39,7 +39,7 @@ z
    <g id="line2d_1">
     <path d="M 399.003429 115.92 
 L 399.003429 30.24 
-" clip-path="url(#p6fc8fe5785)" style="fill: none; stroke-dasharray: 4.8,3.6; stroke-dashoffset: 0; stroke: #ddebdf; stroke-width: 1.2"/>
+" clip-path="url(#pad3a63eb92)" style="fill: none; stroke-dasharray: 4.8,3.6; stroke-dashoffset: 0; stroke: #ddebdf; stroke-width: 1.2"/>
    </g>
    <g id="patch_3">
     <path d="M 119.232 34.134545 
@@ -47,7 +47,7 @@ L 343.049143 34.134545
 L 343.049143 46.570909 
 L 119.232 46.570909 
 z
-" clip-path="url(#p6fc8fe5785)" style="fill: #3fae68"/>
+" clip-path="url(#pad3a63eb92)" style="fill: #3fae68"/>
    </g>
    <g id="patch_4">
     <path d="M 119.232 55.952727 
@@ -55,7 +55,7 @@ L 399.003429 55.952727
 L 399.003429 68.389091 
 L 119.232 68.389091 
 z
-" clip-path="url(#p6fc8fe5785)" style="fill: #3fae68"/>
+" clip-path="url(#pad3a63eb92)" style="fill: #3fae68"/>
    </g>
    <g id="patch_5">
     <path d="M 119.232 77.770909 
@@ -63,7 +63,7 @@ L 175.186286 77.770909
 L 175.186286 90.207273 
 L 119.232 90.207273 
 z
-" clip-path="url(#p6fc8fe5785)" style="fill: #3fae68"/>
+" clip-path="url(#pad3a63eb92)" style="fill: #3fae68"/>
    </g>
    <g id="patch_6">
     <path d="M 175.186286 77.770909 
@@ -71,7 +71,7 @@ L 426.980571 77.770909
 L 426.980571 90.207273 
 L 175.186286 90.207273 
 z
-" clip-path="url(#p6fc8fe5785)" style="fill: #ddebdf"/>
+" clip-path="url(#pad3a63eb92)" style="fill: #ddebdf"/>
    </g>
    <g id="patch_7">
     <path d="M 119.232 99.589091 
@@ -79,7 +79,7 @@ L 404.598857 99.589091
 L 404.598857 112.025455 
 L 119.232 112.025455 
 z
-" clip-path="url(#p6fc8fe5785)" style="fill: #3fae68"/>
+" clip-path="url(#pad3a63eb92)" style="fill: #3fae68"/>
    </g>
    <g id="matplotlib.axis_1">
     <g id="xtick_1">
@@ -101,7 +101,7 @@ z
      </g>
     </g>
     <g id="text_4">
-     <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #c9d7cd" x="295.488" y="137.828906" transform="rotate(-0 295.488 137.828906)">Massa líquida anual (t)</text>
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #c9d7cd" x="295.488" y="137.468906" transform="rotate(-0 295.488 137.468906)">Produtos importados no ano (t)</text>
     </g>
    </g>
    <g id="matplotlib.axis_2">
@@ -195,7 +195,7 @@ z
    <g id="line2d_14">
     <path d="M 119.232 188.02 
 L 471.744 188.02 
-" clip-path="url(#pfb299c6401)" style="fill: none; stroke-dasharray: 4.8,3.6; stroke-dashoffset: 0; stroke: #ddebdf; stroke-width: 1.2"/>
+" clip-path="url(#p71124ebd94)" style="fill: none; stroke-dasharray: 4.8,3.6; stroke-dashoffset: 0; stroke: #ddebdf; stroke-width: 1.2"/>
    </g>
    <g id="line2d_15">
     <path d="M 132.16822 216.02 
@@ -203,9 +203,9 @@ L 229.189872 216.02
 L 229.189872 188.02 
 L 390.892624 188.02 
 L 390.892624 184.52 
-" clip-path="url(#pfb299c6401)" style="fill: none; stroke: #3fae68; stroke-width: 2.2; stroke-linecap: square"/>
+" clip-path="url(#p71124ebd94)" style="fill: none; stroke: #3fae68; stroke-width: 2.2; stroke-linecap: square"/>
     <defs>
-     <path id="m4543dbae63" d="M 0 3 
+     <path id="m3cbe1be721" d="M 0 3 
 C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
 C 2.683901 1.55874 3 0.795609 3 0 
 C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
@@ -217,10 +217,10 @@ C -1.55874 2.683901 -0.795609 3 0 3
 z
 " style="stroke: #3fae68"/>
     </defs>
-    <g clip-path="url(#pfb299c6401)">
-     <use xlink:href="#m4543dbae63" x="132.16822" y="216.02" style="fill: #3fae68; stroke: #3fae68"/>
-     <use xlink:href="#m4543dbae63" x="229.189872" y="188.02" style="fill: #3fae68; stroke: #3fae68"/>
-     <use xlink:href="#m4543dbae63" x="390.892624" y="184.52" style="fill: #3fae68; stroke: #3fae68"/>
+    <g clip-path="url(#p71124ebd94)">
+     <use xlink:href="#m3cbe1be721" x="132.16822" y="216.02" style="fill: #3fae68; stroke: #3fae68"/>
+     <use xlink:href="#m3cbe1be721" x="229.189872" y="188.02" style="fill: #3fae68; stroke: #3fae68"/>
+     <use xlink:href="#m3cbe1be721" x="390.892624" y="184.52" style="fill: #3fae68; stroke: #3fae68"/>
     </g>
    </g>
    <g id="text_20">
@@ -238,20 +238,20 @@ z
    </g>
   </g>
   <g id="text_24">
-   <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #f4f5f2" x="20.736" y="15.12" transform="rotate(-0 20.736 15.12)">A · Cenários alternativos de total anual</text>
+   <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #f4f5f2" x="20.736" y="15.12" transform="rotate(-0 20.736 15.12)">A · Quanto um importador comprou no ano</text>
   </g>
   <g id="text_25">
-   <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #f4f5f2" x="20.736" y="151.2" transform="rotate(-0 20.736 151.2)">B · Exemplo de acúmulo no ano</text>
+   <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #f4f5f2" x="20.736" y="151.2" transform="rotate(-0 20.736 151.2)">B · Somando as compras ao longo do ano</text>
   </g>
   <g id="text_26">
    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #c9d7cd" x="20.736" y="246.96" transform="rotate(-0 20.736 246.96)">Ao ultrapassar 50 t, entram também as importações anteriores do mesmo ano.</text>
   </g>
  </g>
  <defs>
-  <clipPath id="p6fc8fe5785">
+  <clipPath id="pad3a63eb92">
    <rect x="119.232" y="30.24" width="352.512" height="85.68"/>
   </clipPath>
-  <clipPath id="pfb299c6401">
+  <clipPath id="p71124ebd94">
    <rect x="119.232" y="172.62" width="352.512" height="50.4"/>
   </clipPath>
  </defs>

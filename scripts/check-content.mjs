@@ -30,7 +30,7 @@ for (const file of files) {
   const figure = frontmatter.match(/^figure: (.+)$/m)?.[1] || null;
   if (figure && !['sectors', 'classification', 'roles', 'precursors', 'minimis', 'documents'].includes(figure)) errors.push(`${file}: figura desconhecida ${figure}`);
   const plain = content.replace(/^---\n[\s\S]*?\n---/, '').replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim();
-  if (page !== 11 && plain.length < 30) errors.push(`${file}: conteúdo vazio`);
+  if (!/^layout: tree$/m.test(frontmatter) && plain.length < 30) errors.push(`${file}: conteúdo vazio`);
   if (/\b(TODO|LOREM IPSUM|TBD)\b/.test(content)) errors.push(`${file}: texto provisório`);
   pages.push({ page, file, title, words: plain ? plain.split(' ').length : 0, sources: ids, notes: notes.length, figure });
   allContent += content;
@@ -42,8 +42,8 @@ for (let n = 1; n <= edition.pageCount; n++) {
 for (const ref of references) {
   if (!ref.url.startsWith('https://')) errors.push(`Fonte ${ref.id}: URL inválida`);
 }
-if (edition.date !== '2026-10-11') errors.push('Revise explicitamente a data de corte e as fontes antes de alterar a edição.');
-if (edition.version !== '1.0') errors.push('A edição não publicada permanece 1.0.');
+if (edition.date !== '2026-10-12') errors.push('Revise explicitamente a data de corte e as fontes antes de alterar esta revisão.');
+if (edition.version !== '1.0' || edition.stage !== 'review') errors.push('Esta revisão para validação deriva da edição 1.0 e ainda não deve ser publicada.');
 if (allContent.includes('layout: worksheet') || allContent.includes('write-field')) errors.push('A ficha de preenchimento foi retirada.');
 if (!allContent.includes('2026/1740') || !allContent.includes('COM(2025) 989')) errors.push('Atualizações editoriais essenciais ausentes');
 if (errors.length) { console.error(errors.join('\n')); process.exit(1); }

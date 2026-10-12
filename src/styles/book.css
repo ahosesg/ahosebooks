@@ -174,7 +174,7 @@ code { font: 600 10.5pt var(--body); letter-spacing: .3px; white-space: nowrap; 
 .worksheet-result p { margin-bottom: 2mm; }
 .check-options { font-size: 10pt; line-height: 1.8; }
 .blank-box { display: inline-block; width: 3mm; height: 3mm; border: .3mm solid var(--page-muted); vertical-align: -.3mm; margin-right: .5mm; }
-.action-table th:first-child { width: 19%; }
+.action-table th:first-child { width: 36%; }
 .action-table td { padding: 3mm; }
 .client-questions { list-style: none; padding: 0; margin: 3mm 0; counter-reset: question; }
 .client-questions li { counter-increment: question; display: grid; grid-template-columns: 6mm 1fr; gap: 2mm; padding: 2mm 0; margin: 0; border-bottom: .3mm solid var(--page-line); font-size: 10.5pt; }
@@ -335,8 +335,8 @@ body[data-mode='print'] .book { overflow-x: auto; }
 }
 
 /* Page-specific spacing keeps dense educational layouts at the body type size. */
-.sheet[data-page='6'] .route-block { margin-bottom: 4mm; }
-.sheet[data-page='8'] .precursor-hero { padding: 4mm; margin: 4mm 0; }
+.sheet[data-page='7'] .route-block { margin-bottom: 4mm; }
+.sheet[data-page='9'] .precursor-hero { padding: 4mm; margin: 4mm 0; }
 
 /* Native figures communicate scope, roles and boundaries without stock photos. */
 .book-figure { margin: 0 0 5mm; break-inside: avoid; }
@@ -410,17 +410,17 @@ body[data-mode='print'] .book { overflow-x: auto; }
 .document-arrow { color: var(--page-accent); font-size: 20pt; text-align: center; }
 .official-documents .official-relation { font-size: 9.5pt; color: var(--page-muted); margin-top: 4mm; }
 .reference-related a { font-size: 9pt; font-weight: 400; text-decoration: underline; }
-.sheet[data-page='5'] .numbered-steps li { padding: 3mm 0; }
-.sheet[data-page='8'] .boundary-pair { margin: 4mm 0; }
-.sheet[data-page='10'] .insight { margin: 3mm 0; padding: 3mm 4mm; }
-.sheet[data-page='13'] .insight { margin: 3mm 0 0; }
-.sheet[data-page='10'] .book-figure { margin-bottom: 4mm; }
-.sheet[data-page='13'] .book-figure { margin-bottom: 3mm; }
-.sheet[data-page='10'] .minimis-rules > div { padding: 2.5mm 0; }
-.sheet[data-page='4'] .insight { margin-top: 4mm; }
+.sheet[data-page='6'] .numbered-steps li { padding: 3mm 0; }
+.sheet[data-page='9'] .boundary-pair { margin: 4mm 0; }
+.sheet[data-page='11'] .insight { margin: 3mm 0; padding: 3mm 4mm; }
+.sheet[data-page='14'] .insight { margin: 3mm 0 0; }
+.sheet[data-page='11'] .book-figure { margin-bottom: 4mm; }
+.sheet[data-page='14'] .book-figure { margin-bottom: 3mm; }
+.sheet[data-page='11'] .minimis-rules > div { padding: 2.5mm 0; }
+.sheet[data-page='5'] .insight { margin-top: 4mm; }
 .sheet-references .reference-list li { padding: 1.7mm 0; }
-.sheet[data-page='6'] .route-block { padding: 3mm 4mm; border: .3mm solid var(--page-line); background: var(--page-surface); margin-bottom: 4mm; }
-.sheet[data-page='6'] .route-node { border-top-color: var(--page-accent); background: var(--page-bg); padding: 4mm 3mm; }
+.sheet[data-page='7'] .route-block { padding: 3mm 4mm; border: .3mm solid var(--page-line); background: var(--page-surface); margin-bottom: 4mm; }
+.sheet[data-page='7'] .route-node { border-top-color: var(--page-accent); background: var(--page-bg); padding: 4mm 3mm; }
 .case-scheme { display: flex; flex-wrap: wrap; align-items: center; gap: 1.5mm; color: var(--page-heading); margin: 3mm 0; font-size: 9.5pt; }
 .case-scheme > span { background: var(--page-highlight); padding: 1.5mm 2mm; }
 .case-scheme > em { font-style: normal; color: var(--page-muted); font-size: 9pt; }
@@ -431,3 +431,12 @@ body[data-mode='print'] .book { overflow-x: auto; }
   body[data-mode='reader'] .code-root { width: 100%; }
   body[data-mode='reader'] .code-branches { gap: 2mm; }
 }
+
+/* Terms are defined in context and collected here for a first reading. */
+.starter-glossary { gap: 4mm 6mm; }
+.starter-glossary > div { padding: 2mm 0; border-top: .7mm solid var(--page-rule); }
+.starter-glossary dt { font-family: var(--heading); font-size: 11.5pt; margin-bottom: 2mm; }
+.starter-glossary dd { font-size: 11pt; line-height: 1.43; }
+.measurement-pair { margin-top: 5mm; }
+.measurement-pair h3 { font-size: 11.5pt; }
+.measurement-pair p { font-size: 10.5pt; }
