@@ -419,7 +419,7 @@ body[data-mode='print'] .book { overflow-x: auto; }
 .sheet[data-page='11'] .minimis-rules > div { padding: 2.5mm 0; }
 .sheet[data-page='5'] .insight { margin-top: 4mm; }
 .sheet-references .reference-list li { padding: 1.7mm 0; }
-.sheet[data-page='7'] .route-block { padding: 3mm 4mm; border: .3mm solid var(--page-line); background: var(--page-surface); margin-bottom: 4mm; }
+.sheet[data-page='7'] .route-block { padding: 3mm 4mm; border: .3mm solid var(--page-line); background: var(--page-surface); margin-bottom: 3mm; }
 .sheet[data-page='7'] .route-node { border-top-color: var(--page-accent); background: var(--page-bg); padding: 4mm 3mm; }
 .case-scheme { display: flex; flex-wrap: wrap; align-items: center; gap: 1.5mm; color: var(--page-heading); margin: 3mm 0; font-size: 9.5pt; }
 .case-scheme > span { background: var(--page-highlight); padding: 1.5mm 2mm; }
@@ -440,3 +440,6 @@ body[data-mode='print'] .book { overflow-x: auto; }
 .measurement-pair { margin-top: 5mm; }
 .measurement-pair h3 { font-size: 11.5pt; }
 .measurement-pair p { font-size: 10.5pt; }
+.sheet[data-page='5'] .page-content > h3 { margin-top: 4mm; }
+.sheet[data-page='5'] .book-figure { margin-bottom: 4mm; }
+.sheet[data-page='11'] .minimis-rules > div { padding: 2mm 0; }

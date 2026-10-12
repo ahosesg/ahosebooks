@@ -13,8 +13,8 @@ notes:
     label: "Regulamento de Execução (UE) 2025/2547, Anexos I e II"
 ---
 <div class="boundary-pair">
-  <div><h3>Pode ser precursor</h3><p>O clínquer, que está na lista do CBAM, é usado para fabricar cimento. As emissões de sua produção podem fazer parte das emissões atribuídas ao cimento.</p></div>
-  <div><h3>Não basta ser um insumo</h3><p>Nem todo material comprado pela fábrica é precursor. Aço usado para construir ou reparar o prédio, por exemplo, não entra nessa categoria.</p></div>
+  <div><h3>Pode ser precursor</h3><p>O clínquer está na lista CBAM e é usado para fabricar cimento. Suas emissões podem entrar no cálculo do cimento.</p></div>
+  <div><h3>Não basta ser um insumo</h3><p>Nem todo material é precursor. Aço usado para construir ou reparar o prédio da fábrica, por exemplo, não entra nessa categoria.</p></div>
 </div>
 
 O cliente pode precisar saber **qual fábrica produziu a matéria-prima, em qual período e quanto dela foi usado**. As informações e o cálculo devem seguir as regras do CBAM para aquele produto.<sup class="note-ref"><a id="chamada-9-1" href="#nota-9-1" role="doc-noteref" aria-label="Nota 1">1</a></sup>

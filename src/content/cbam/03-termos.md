@@ -13,14 +13,14 @@ notes:
 <p class="lead">Estas expressões aparecem nas regras europeias. Use esta página como consulta; nas próximas seções, elas serão explicadas no contexto da sua venda.<sup class="note-ref"><a id="chamada-3-1" href="#nota-3-1" role="doc-noteref" aria-label="Nota 1">1</a></sup></p>
 
 <dl class="glossary starter-glossary">
-  <div><dt>Importador</dt><dd>A empresa ou pessoa que realiza a importação na UE. Pode ser diferente do contato que negociou sua venda. É importante saber quem ocupa esse papel na operação.</dd></div>
-  <div><dt>NCM e CN</dt><dd>São códigos usados para classificar mercadorias. A NCM é utilizada no Brasil e no Mercosul; a CN é utilizada na UE. Oito dígitos da NCM não podem ser simplesmente copiados para a CN.</dd></div>
-  <div><dt>Emissões incorporadas</dt><dd>Emissões atribuídas à produção de um produto pelas regras do CBAM. Podem envolver a fabricação, a eletricidade e certos materiais usados no processo, conforme o produto e a metodologia aplicável.</dd></div>
-  <div><dt>Certificados CBAM</dt><dd>Instrumentos eletrônicos que o responsável autorizado na UE compra e entrega para cumprir a obrigação financeira do mecanismo. Não são certificados de qualidade nem créditos comprados para compensar emissões.</dd></div>
-  <div><dt>Precursor</dt><dd>Um produto da lista do CBAM utilizado para fabricar outro produto abrangido. As emissões de sua produção podem entrar no cálculo do produto seguinte. Um exemplo é o clínquer usado para fabricar cimento.</dd></div>
-  <div><dt>Declarante autorizado</dt><dd>Quem tem autorização para cumprir as obrigações CBAM na UE. Pode ser o próprio importador ou seu representante habilitado para atuar na importação, nas condições previstas nas regras.</dd></div>
-  <div><dt>Trader</dt><dd>Uma empresa que intermedeia a compra e a venda de mercadorias. Vender por meio dela não elimina o CBAM se o produto chegar à UE em uma importação abrangida.</dd></div>
-  <div><dt>Operador da instalação</dt><dd>A empresa ou pessoa responsável pela fábrica que produz a mercadoria. É quem tem acesso às informações do processo, dos materiais consumidos e das emissões da produção.</dd></div>
+  <div><dt>Importador</dt><dd>Quem realiza a importação na UE. Pode ser uma empresa diferente do seu contato de compras. Confirme quem ocupa esse papel na venda.</dd></div>
+  <div><dt>NCM e CN</dt><dd>Códigos que classificam mercadorias no Brasil/Mercosul e na UE, respectivamente. Ambos têm oito dígitos, mas não há correspondência automática entre eles.</dd></div>
+  <div><dt>Emissões incorporadas</dt><dd>Emissões atribuídas à fabricação pelas regras CBAM. Conforme o produto, podem incluir a eletricidade e certos materiais usados no processo.</dd></div>
+  <div><dt>Certificados CBAM</dt><dd>Instrumentos que o responsável na UE compra e entrega para cumprir a parte financeira do CBAM. Não são certificados de qualidade nem créditos de compensação.</dd></div>
+  <div><dt>Precursor</dt><dd>Produto da lista CBAM usado para fabricar outro produto abrangido. Suas emissões podem entrar no cálculo seguinte, como no caso do clínquer usado para fazer cimento.</dd></div>
+  <div><dt>Declarante autorizado</dt><dd>Pessoa ou empresa autorizada a cumprir o CBAM na UE. Conforme as regras, pode ser o importador ou seu representante habilitado.</dd></div>
+  <div><dt>Trader</dt><dd>Empresa intermediária na compra e venda. Vender por ela não elimina o CBAM se o produto chegar à UE em uma importação abrangida.</dd></div>
+  <div><dt>Operador da instalação</dt><dd>Responsável pela fábrica onde o produto é feito. Tem acesso às informações do processo, dos materiais consumidos e das emissões da produção.</dd></div>
 </dl>
 
 <div class="boundary-pair measurement-pair">

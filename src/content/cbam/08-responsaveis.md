@@ -14,9 +14,9 @@ notes:
 ---
 ### Identifique o importador, não só o contato comercial
 
-Peça o nome da empresa que fará a importação e seu **EORI**, o número de identificação usado nas operações aduaneiras europeias. É essa identificação que ajuda a saber de quem são as importações somadas na regra dos 50 t.
+Peça o nome e o **EORI** do importador. EORI é seu número de identificação aduaneira europeia. Ele ajuda a identificar de quem são as importações somadas na regra dos 50 t.
 
-Confirme também quem é o **declarante autorizado**, a pessoa ou empresa autorizada a cumprir o CBAM na UE. Seu contato de compras pode não ocupar esse papel.<sup class="note-ref"><a id="chamada-8-1" href="#nota-8-1" role="doc-noteref" aria-label="Nota 1">1</a></sup>
+Confirme quem tem autorização para declarar. Seu contato de compras pode não ocupar esse papel.<sup class="note-ref"><a id="chamada-8-1" href="#nota-8-1" role="doc-noteref" aria-label="Nota 1">1</a></sup>
 
 ### Se você exporta, mas não fabrica
 

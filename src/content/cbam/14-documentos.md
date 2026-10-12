@@ -4,7 +4,7 @@ title: "Dados da fábrica e declaração: qual a diferença?"
 nav: "Dados e documentos oficiais"
 kicker: "Entenda o pedido do cliente"
 sources: [REG, G2, MET]
-intro: "Saber que a importação está incluída é o começo. Depois, o responsável na UE precisa entender as emissões do produto. Os dados de quem fabrica e a declaração de quem importa têm funções diferentes."
+intro: "O cliente pode pedir dados da fábrica para usar na declaração. O relatório de quem produz e a declaração de quem importa são documentos diferentes."
 figure: documents
 notes:
   - number: 1
@@ -16,12 +16,10 @@ notes:
     source: "REG"
     label: "Regulamento (UE) 2023/956, arts. 6 e 8"
 ---
-### O relatório de quem fabrica
+### Quando o cliente pede dados reais
 
-Quando são usados dados reais, o cliente pode solicitar o **relatório de emissões da fábrica e seu resumo**, com o formato previsto nas normas. A verificação é feita por um verificador acreditado, uma entidade habilitada para conferir os dados segundo as regras CBAM.<sup class="note-ref"><a id="chamada-14-1" href="#nota-14-1" role="doc-noteref" aria-label="Nota 1">1</a></sup>
+O **relatório de emissões da fábrica e seu resumo** seguem os formatos previstos nas normas, em inglês. Os dados reais precisam da verificação aplicável, feita por um verificador acreditado, entidade habilitada para essa conferência.<sup class="note-ref"><a id="chamada-14-1" href="#nota-14-1" role="doc-noteref" aria-label="Nota 1">1</a></sup>
 
-### A declaração de quem importa
+O responsável autorizado na UE apresenta a **declaração CBAM**, com informações anuais das importações, incluindo quantidades, emissões e certificados correspondentes.<sup class="note-ref"><a id="chamada-14-2" href="#nota-14-2" role="doc-noteref" aria-label="Nota 2">2</a></sup>
 
-O responsável autorizado na UE apresenta os dados anuais das importações, incluindo quantidades, emissões e certificados correspondentes. Essa é a **declaração CBAM**. Este e-book ajuda a reconhecer sua situação, mas não calcula as emissões nem ensina a preencher essa declaração.<sup class="note-ref"><a id="chamada-14-2" href="#nota-14-2" role="doc-noteref" aria-label="Nota 2">2</a></sup>
-
-<div class="insight"><p><strong>Já tem um relatório ambiental?</strong> Ele pode ter outro objetivo. Contar as emissões da empresa inteira ou avaliar todo o ciclo de vida do produto, por exemplo, não substitui automaticamente o cálculo pelas regras CBAM. Confirme o que o cliente precisa antes de enviar.</p></div>
+<p><strong>Já tem um relatório ambiental?</strong> Ele pode ter outro objetivo. Contar as emissões da empresa inteira ou avaliar impactos da fabricação ao uso do produto não substitui automaticamente o cálculo pelas regras CBAM.</p>

@@ -17,8 +17,8 @@ notes:
     label: "Comissão Europeia: avaliação do limite"
 ---
 <div class="minimis-rules">
-  <div><strong>Até 50 t, inclusive</strong><p>Pode haver isenção, atendidas as condições legais. Exatamente 50 t ainda está no limite; novas compras podem mudar o resultado.<sup class="note-ref"><a id="chamada-11-1" href="#nota-11-1" role="doc-noteref" aria-label="Nota 1">1</a></sup></p></div>
-  <div><strong>Acima de 50 t</strong><p>As obrigações alcançam as importações abrangidas do ano inteiro. Não se limitam à quantidade que passou das 50 t.</p></div>
+  <div><strong>Até 50 t, inclusive</strong><p>Pode haver isenção, nas condições legais. 50 t exatas ainda está no limite; novas compras podem ultrapassá-lo.<sup class="note-ref"><a id="chamada-11-1" href="#nota-11-1" role="doc-noteref" aria-label="Nota 1">1</a></sup></p></div>
+  <div><strong>Acima de 50 t</strong><p>As obrigações alcançam as importações abrangidas do ano inteiro, inclusive as anteriores. Não apenas o excedente.</p></div>
   <div><strong>Você vendeu apenas 10 t</strong><p>Isso não prova a isenção. Se outro fornecedor vendeu 45 t ao mesmo importador, o total é 55 t.</p></div>
 </div>
 
